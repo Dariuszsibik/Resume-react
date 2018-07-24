@@ -6,14 +6,17 @@ import ChangeLanguage from './ChangeLanguage.js';
     class Nav extends Component {
     constructor(){
         super();
-        this.state = {toggleOn: false };
+        this.state = {
+        show: false,
+     };
     }
+    
 
     onToggleClick(event) {
         event.preventDefault();
 
         this.setState({
-            toggleOn: !this.state.toggleOn
+            show: !this.state.show
         });
     }
 
@@ -22,7 +25,10 @@ import ChangeLanguage from './ChangeLanguage.js';
     const language = t("language");
 
     const toggleclassName = classNames({
-        'show': this.state.toggleOn === true,
+        'show': this.state.show === true,
+    })
+    const hideclassName = classNames({
+        'hide': this.state.show === false,
     })
     const aboutClassName = classNames({
         'active': this.props.about === true,
@@ -49,7 +55,7 @@ import ChangeLanguage from './ChangeLanguage.js';
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <ChangeLanguage class={'languageMin'}/>
-                        <div className={`collapse navbar-collapse ${toggleclassName}`} >
+                        <div id="onToggle" className={`navbar-collapse ${toggleclassName} ${hideclassName}`} >
                             <li className="nav-item">
                                 <a className={`nav-link ${aboutClassName}`} id="nav-item-link" onClick={this.props.onAboutClick} href="#about">{t("about")}</a>
                             </li>
