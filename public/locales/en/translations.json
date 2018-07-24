@@ -1,6 +1,12 @@
 {
     "title": "angielski",
     "language": "en",
-    "changeOn": "pl"
+    "changeOn": "pl",
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "interests": "Interests",
+    "awards": "Awards"
   }
   

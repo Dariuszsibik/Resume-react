@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './components/Nav.js';
 import SideBar from './components/SideBar.js';
-import { translate, Trans} from 'react-i18next';
+
 
 class App extends Component {
   constructor(){
@@ -72,8 +72,6 @@ class App extends Component {
 
 
   render() {
-    
-    const { t, i18n } = this.props;
 
     return (
       <div className="Resume">
@@ -99,4 +97,4 @@ class App extends Component {
   }
 }
 
-export default translate('translations')(App);
+export default App

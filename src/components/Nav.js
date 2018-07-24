@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
+import { translate, Trans } from 'react-i18next';
 import ChangeLanguage from './ChangeLanguage.js';
 
-    export default class Nav extends Component {
+    class Nav extends Component {
     constructor(){
         super();
         this.state = {toggleOn: false };
@@ -17,6 +18,9 @@ import ChangeLanguage from './ChangeLanguage.js';
     }
 
   render() {
+    const { t, i18n } = this.props;
+    const language = t("language");
+
     const toggleclassName = classNames({
         'show': this.state.toggleOn === true,
     })
@@ -47,22 +51,22 @@ import ChangeLanguage from './ChangeLanguage.js';
                     <ChangeLanguage class={'languageMin'}/>
                         <div className={`collapse navbar-collapse ${toggleclassName}`} >
                             <li className="nav-item">
-                                <a className={`nav-link ${aboutClassName}`} id="nav-item-link" onClick={this.props.onAboutClick} href="#about">About</a>
+                                <a className={`nav-link ${aboutClassName}`} id="nav-item-link" onClick={this.props.onAboutClick} href="#about">{t("about")}</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${experienceClassName}`} id="nav-item-link" value="2"  onClick={this.props.onExperienceClick} href="#experience">Experience</a>
+                                <a className={`nav-link ${experienceClassName}`} id="nav-item-link" value="2"  onClick={this.props.onExperienceClick} href="#experience">{t("experience")}</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${educationClassName}`} id="nav-item-link" onClick={this.props.onEducationClick} href="#education">Education</a>
+                                <a className={`nav-link ${educationClassName}`} id="nav-item-link" onClick={this.props.onEducationClick} href="#education">{t("education")}</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${skillsClassName}`} id="nav-item-link" onClick={this.props.onSkillsClick} href="#skills">Skills</a>
+                                <a className={`nav-link ${skillsClassName}`} id="nav-item-link" onClick={this.props.onSkillsClick} href="#skills">{t("skills")}</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${interestsClassName}`} id="nav-item-link" onClick={this.props.onInterestsClick} href="#interests">Interests</a>
+                                <a className={`nav-link ${interestsClassName}`} id="nav-item-link" onClick={this.props.onInterestsClick} href="#interests">{t("interests")}</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${awardsClassName}`} id="nav-item-link" onClick={this.props.onAwardsClick} href="#awards">Awards</a>
+                                <a className={`nav-link ${awardsClassName}`} id="nav-item-link" onClick={this.props.onAwardsClick} href="#awards">{t("awards")}</a>
                             </li>
                             </div>
                             <ChangeLanguage/>
@@ -71,3 +75,4 @@ import ChangeLanguage from './ChangeLanguage.js';
   }
 }
 
+export default translate('translations')(Nav);
