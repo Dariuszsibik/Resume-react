@@ -246,15 +246,18 @@ a {
     padding: 8px;
     display: block;
     margin: 0 auto;
-    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
-    background: url(../img/test.png) repeat-y;
+    text-shadow: 1px 4px 8px black;
+    background: url(../img/test2.png);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: dariusz-sibik 80s linear infinite;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
-    font-size: 32px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Allura', cursive;
+    text-transform: capitalize;
 }
 
 @media (max-width: 992px) {

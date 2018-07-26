@@ -1,96 +1,64 @@
 import React, { Component } from 'react';
 import Nav from './components/Nav.js';
 import SideBar from './components/SideBar.js';
+import Awards from './components/Awards.js';
+import About from './components/About.js';
+import Education from './components/Education.js';
+import Interests from './components/Interests.js';
+import Skills from './components/Skills.js';
+import Experience from './components/Experience';
 
 
 class App extends Component {
   constructor(){
     super();
     this.state = {
-      about: false,
-      experience: false,
-      education: false,
-      skills: false,
-      interests: false,
-      awards: false 
+      navActive: null,
     };
-    this.onAboutClick = this.onAboutClick.bind(this);
-    this.onExperienceClick = this.onExperienceClick.bind(this);
-    this.onEducationClick = this.onEducationClick.bind(this);
-    this.onSkillsClick = this.onSkillsClick.bind(this);
-    this.onInterestsClick = this.onInterestsClick.bind(this);
-    this.onAwardsClick = this.onAwardsClick.bind(this);
-    this.reset = this.reset.bind(this);
+    this.onNavClick = this.onNavClick.bind(this);
   }
 
-    onAboutClick() {
-      this.reset();
+    onNavClick(props) {
       this.setState({
-          about: true
-      });
+        navActive: props
+      })
     }
-    onExperienceClick() {
-      this.reset();
-      this.setState({
-          experience: true
-      });
-    }
-    onEducationClick() {
-      this.reset();
-      this.setState({
-          education: true
-      });
-    }
-    onSkillsClick() {
-      this.reset();
-      this.setState({
-          skills: true
-      });
-    }
-    onInterestsClick() {
-      this.reset();
-      this.setState({
-          interests: true
-      });
-    }
-    onAwardsClick() {
-      this.reset();
-      this.setState({
-          awards: true
-      });
-    }
-    reset() {
-      this.setState({
-        about: false,
-        experience: false,
-        education: false,
-        skills: false,
-        interests: false,
-        awards: false 
-    });
-    }
-
 
   render() {
+   
+    var section = null;
+    switch (this.state.navActive) {
+      case 'awards':
+          section = <Awards/>;
+          break;
+      case 'about':
+          section = <About/>;
+          break;
+      case 'experience':
+          section = <Experience/>;
+          break;
+      case 'education':
+          section = <Education/>;
+          break;
+      case 'skills':
+          section = <Skills/>;
+          break;
+      case 'interests':
+          section = <Interests/>;
+          break;
+      default: 
+          section = null;
+  }
 
     return (
       <div className="Resume">
           <Nav 
-              about={this.state.about} 
-              experience={this.state.experience} 
-              education={this.state.education}
-              skills={this.state.skills}
-              interests={this.state.interests}
-              awards={this.state.awards}
-              onAboutClick={this.onAboutClick}
-              onExperienceClick={this.onExperienceClick}
-              onEducationClick={this.onEducationClick}
-              onInterestsClick={this.onInterestsClick}
-              onSkillsClick={this.onSkillsClick}
-              onAwardsClick={this.onAwardsClick}
+              navActive={this.state.navActive}
+              onNavClick={this.onNavClick} 
           />
           <SideBar/>
           <div className="container-fluid p-0">
+              {section}
           </div>
       </div>
     );

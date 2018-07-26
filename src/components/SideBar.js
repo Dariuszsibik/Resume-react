@@ -15,7 +15,7 @@ export default class SideBar extends Component {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
             <div className="sidebar-contact">
-                <h4 className="dariusz-sibik"> Dariusz Sibik </h4>
+                <h4 className="dariusz-sibik">Dariusz Sibik</h4>
                     <li className="nav-item">
                         <span className="sidebar-mail">
                                 <a className="fa fa-envelope fa-stack-1x fa-inverse" href="mailto:sibikdariusz@gmail.com">sibikdariusz@gmail.com</a>

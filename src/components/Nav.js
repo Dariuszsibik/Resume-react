@@ -31,22 +31,22 @@ import ChangeLanguage from './ChangeLanguage.js';
         'hide': this.state.show === false,
     })
     const aboutClassName = classNames({
-        'active': this.props.about === true,
+        'active': this.props.navActive === 'about',
     })
     const educationClassName = classNames({
-        'active': this.props.education === true,
+        'active': this.props.navActive === 'education',
     })
     const experienceClassName = classNames({
-        'active': this.props.experience === true,
+        'active': this.props.navActive === 'experience',
     })
     const skillsClassName = classNames({
-        'active': this.props.skills === true,
+        'active': this.props.navActive === 'skills',
     })
     const awardsClassName = classNames({
-        'active': this.props.awards === true,
+        'active': this.props.navActive === 'awards',
     })
     const interestsClassName = classNames({
-        'active': this.props.interests === true,
+        'active': this.props.navActive === 'interests',
     })
 
     return (
@@ -57,22 +57,22 @@ import ChangeLanguage from './ChangeLanguage.js';
                     <ChangeLanguage class={'languageMin'}/>
                         <div id="onToggle" className={`navbar-collapse ${toggleclassName} ${hideclassName}`} >
                             <li className="nav-item">
-                                <a className={`nav-link ${aboutClassName}`} id="nav-item-link" onClick={this.props.onAboutClick} href="#about">{t("about")}</a>
+                                <a className={`nav-link ${aboutClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('about') } href="#about">{t("about")}</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${experienceClassName}`} id="nav-item-link" value="2"  onClick={this.props.onExperienceClick} href="#experience">{t("experience")}</a>
+                                <a className={`nav-link ${experienceClassName}`} id="nav-item-link" value="2"  onClick={ () => this.props.onNavClick('experience') } href="#experience">{t("experience")}</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${educationClassName}`} id="nav-item-link" onClick={this.props.onEducationClick} href="#education">{t("education")}</a>
+                                <a className={`nav-link ${educationClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('education') } href="#education">{t("education")}</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${skillsClassName}`} id="nav-item-link" onClick={this.props.onSkillsClick} href="#skills">{t("skills")}</a>
+                                <a className={`nav-link ${skillsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('skills') } href="#skills">{t("skills")}</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${interestsClassName}`} id="nav-item-link" onClick={this.props.onInterestsClick} href="#interests">{t("interests")}</a>
+                                <a className={`nav-link ${interestsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('interests') } href="#interests">{t("interests")}</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${awardsClassName}`} id="nav-item-link" onClick={this.props.onAwardsClick} href="#awards">{t("awards")}</a>
+                                <a className={`nav-link ${awardsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('awards') } href="#awards">{t("awards")}</a>
                             </li>
                             </div>
                             <ChangeLanguage/>
