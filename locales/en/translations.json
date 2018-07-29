@@ -4,9 +4,31 @@
     "changeOn": "pl",
     "about": "About",
     "experience": "Experience",
-    "education": "Education",
     "skills": "Skills",
     "interests": "Interests",
-    "awards": "Awards"
+
+    "education": "Education",
+    "education_university": "Pedagogical University in Cracow",
+    "education_university_degree": "Degree: Engineer",
+    "education_university_specialisation": "Specialisation: Applied Computer Science",
+    "education_university_diploma": "Thesis title: “Cloud computing security - Design of the Login and Registration script”", 
+    "education_university_date": "10/2011 - 03/2015",
+    "eitca": "European Information Technologies Certification Academy",
+    "eitca-is": "EITCA Information Technologies Security Programme",
+    "eitca-date": "10/2015 - 12/2016",
+
+    "awards": "Awards",
+    "ericpol": "Summer C ++ Programming School - Ericpol 07/2015",
+    "artax": "WebMaster Front and Back Developer - Artax 11/2015",
+    "sages": "From SASS to LESS Improve CSS - Sages 07/2016",
+    "eitca_database": "Databases and data engineering - EITCA 10/2016",
+    "strefakursow_android": "Creating an Android application - Strefakursów 06/2017",
+    "strefakursow_ekosystemjs": "Javascript ecosystem - Strefakursów 06/2017",
+    "strefakursow_html": "HTML5 advanced - Strefakursów 12/2017",
+    "strefakursow_webpack": "Webpack - Strefakursów 05/2018",
+    "strefakursow_git": "Git - Strefakursów 06/2018",
+    "strefakursow_nodejs": "Node.js - Strefakursów 07/2018"
+
+
   }
   
