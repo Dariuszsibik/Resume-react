@@ -13,9 +13,20 @@ export default class Experience extends Component {
               <div className="resume-content mr-auto">
                   <h3 className="mb-0">Web Developer</h3>
                   <div className="subheading mb-3">Jagiellonian University in Kraków</div>
-                  <p>• Administration of Application Liferay 6.2.5 • Creation pages in Liferay based on structures and templates • Creation  templates for Velocity Web Pages • Participation in the project of the new login system (technologies used: Javascript, Jquery, HTML, CSS) • Participation in the project for editors: http://www.uj.edu.pl/web/wsw-test/start • Participation in the creation of a website for the Public Procurement Department • Participation in the creation and updating of JS scripts and validation of the login form 
- 
- Pages preapered during Internship 1) Erasmus  DWM – http://www.erasmus.dwm.uj.edu.pl/ 2) Ingarden Conference –  http://www.ingarden.confer.uj.edu.pl/ 3) Blog of the Jagiellonian Library -  http://www.blog.bj.uj.edu.pl/ 4) International Exchange Department –  http://www.dwm.uj.edu.pl/  </p>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <i class="fa-li fa fa-check"></i> Praca nad projektami dla Uniwersytetu Jagiellońskiego, opartymi na platformie Liferay 6.2.5.</li>
+                            <li>
+                                <i class="fa-li fa fa-check"></i> Frontendu aplikacji: HTML, CSS, Bootstrap, JavaScript, jQuery.</li>
+                            <li>
+                                <i class="fa-li fa fa-check"></i> Backendu aplikacji: Java, Velocity.</li>
+                            <li>
+                                <i class="fa-li fa fa-check"></i> Implementacja wymaganych zmian, poprawa bieżących błędów, oraz aktualizacja kodu w zdalnym repozytorium Gitlab.</li>
+                            <li>
+                                <i class="fa-li fa fa-check"></i> Tworzenie stron w Liferay na podstawie struktur i szablonów.</li>
+                            <li>
+                                <i class="fa-li fa fa-check"></i> Automatyzacja własnej pracy.</li>
+                        </ul>
               </div>
               <div className="resume-date text-md-right">
                   <span className="text-primary">07/2017 - Present</span>

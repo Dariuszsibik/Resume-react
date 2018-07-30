@@ -247,11 +247,11 @@ a {
     display: block;
     margin: 0 auto;
     text-shadow: 1px 4px 8px black;
-    background: url(../img/test2.png);
+    background: url(../img/test4.png);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: dariusz-sibik 80s linear infinite;
+    animation: dariusz-sibik 140s linear infinite;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
     font-size: 40px;
@@ -275,6 +275,45 @@ a {
         display: none;
     }
 }
+
+section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+section.resume-section .resume-item .resume-date {
+    min-width: none;
+}
+
+@media (min-width: 768px) {
+    section.resume-section {
+        max-height: 470px;
+    }
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem;
+    }
+}
+
+@media (min-width: 992px) {
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
+
+.experience-title {
+    font-size: 2.5rem;
+}
+
+.list-icons {
+    font-size: 3rem;
+}
+
+.list-icons .list-inline-item i:hover {
+    color: #00381f;
+}
+
+
 
 @keyframes test {
     0% {
