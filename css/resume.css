@@ -313,7 +313,9 @@ section.resume-section .resume-item .resume-date {
     color: #00381f;
 }
 
-
+.devicon {
+    font-size: 6.8rem;
+}
 
 @keyframes test {
     0% {
