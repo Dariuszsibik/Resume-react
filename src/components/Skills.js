@@ -7,67 +7,67 @@ export default class Skills extends Component {
 
               <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
               <div className="my-auto">
-                  <h2 className="mb-5">Skills</h2>
+                  <div className="subheading mb-3">Z czego korzystam:</div>
+                  <ul className="list-inline list-icons">
+                        <li className="list-inline-item">
+                            <i class="devicon devicon-html5-plain-wordmark colored" title="Test"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i class="devicon devicon-css3-plain-wordmark colored"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i class="devicon devicon-javascript-plain colored"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i class="devicon devicon-jquery-plain-wordmark colored"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i class="devicon devicon-bootstrap-plain-wordmark colored"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i class="devicon devicon-react-original-wordmark colored"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i class="devicon devicon-java-plain-wordmark colored"></i>
+                        </li>
 
-                  <div className="subheading mb-3">Programming Languages &amp; Tools</div>
+                  </ul>
+
+                  <div className="subheading mb-3">Narzędzia:</div>
                   <ul className="list-inline list-icons">
                       <li className="list-inline-item">
-                          <i className="devicons devicons-html5"></i>
+                            <i class="devicon devicon-wordpress-plain-wordmark colored"></i>
                       </li>
                       <li className="list-inline-item">
-                          <i className="devicons devicons-css3"></i>
+                            <i class="devicon devicon-visualstudio-plain-wordmark colored"></i>
                       </li>
                       <li className="list-inline-item">
-                          <i className="devicons devicons-javascript"></i>
+                            <i class="devicon devicon-intellij-plain-wordmark colored"></i>
                       </li>
                       <li className="list-inline-item">
-                          <i className="devicons devicons-jquery"></i>
-                      </li>
-                      <li className="list-inline-item">
-                          <i className="devicons devicons-sass"></i>
-                      </li>
-                      <li className="list-inline-item">
-                          <i className="devicons devicons-less"></i>
-                      </li>
-                      <li className="list-inline-item">
-                          <i className="devicons devicons-bootstrap"></i>
-                      </li>
-                      <li className="list-inline-item">
-                          <i className="devicons devicons-wordpress"></i>
-                      </li>
-                      <li className="list-inline-item">
-                          <i className="devicons devicons-grunt"></i>
-                      </li>
-                      <li className="list-inline-item">
-                          <i className="devicons devicons-gulp"></i>
-                      </li>
-                      <li className="list-inline-item">
-                          <i className="devicons devicons-npm"></i>
-                      </li>
-                      <li className="list-inline-item">
-                          <i className="devicons devicons-react"></i>
-                      </li>
-                      <li className="list-inline-item">
-                          <i className="devicons devicons-visualstudio"></i>
-                      </li>
-                      <li className="list-inline-item">
-                          <i className="devicons devicons-intellij"></i>
-                      </li>
-                      <li className="list-inline-item">
-                          <i className="devicons devicons-git"></i>
+                            <i class="devicon devicon-git-plain-wordmark colored"></i>
                       </li>
                   </ul>
 
-                  <div className="subheading mb-3">Workflow</div>
-                  <ul className="fa-ul mb-0">
-                      <li>
-                          <i className="fa-li fa fa-check"></i> Mobile-First, Responsive Design</li>
-                      <li>
-                          <i className="fa-li fa fa-check"></i> Cross Browser Testing &amp; Debugging</li>
-                      <li>
-                          <i className="fa-li fa fa-check"></i> Cross Functional Teams</li>
-                      <li>
-                          <i className="fa-li fa fa-check"></i> Agile Development &amp; Scrum</li>
+                  <div className="subheading mb-3">W czym się rozwijam:</div>
+                  <ul className="list-inline list-icons">
+                        <li className="list-inline-item">
+                                <i class="devicon devicon-react-original-wordmark colored"></i>   
+                        </li>
+                        <li className="list-inline-item">
+                                <i class="devicon devicon-angularjs-plain-wordmark"></i> 
+                        </li>
+                        <li className="list-inline-item">
+                                <i class="devicon devicon-nodejs-plain-wordmark colored"></i>     
+                        </li>
+                        <li className="list-inline-item">
+                                <i class="devicon devicon-typescript-plain colored"></i>    
+                        </li>
+                        <li className="list-inline-item">
+                                <i class="devicon devicon-webpack-plain-wordmark colored"></i>    
+                        </li>
+
+
                   </ul>
               </div>
           </section>

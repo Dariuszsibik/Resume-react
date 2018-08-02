@@ -15,12 +15,12 @@ i18n
 
     debug: true,
 
-    
+ /*
     backend: {
       loadPath: path.join(__dirname, 'Resume-react/locales/{{lng}}/{{ns}}.json'),
       addPath: path.join(__dirname, '/locales/{{lng}}/{{ns}}.missing.json')
     },
-    
+ */
     react: {
       wait: true
     }
