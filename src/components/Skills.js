@@ -5,72 +5,119 @@ export default class Skills extends Component {
   render() {
     return (
 
-              <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-              <div className="my-auto">
-                  <div className="subheading mb-3">Z czego korzystam:</div>
-                  <ul className="list-inline list-icons">
-                        <li className="list-inline-item">
-                            <i class="devicon devicon-html5-plain-wordmark colored" title="Test"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i class="devicon devicon-css3-plain-wordmark colored"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i class="devicon devicon-javascript-plain colored"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i class="devicon devicon-jquery-plain-wordmark colored"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i class="devicon devicon-bootstrap-plain-wordmark colored"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i class="devicon devicon-react-original-wordmark colored"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i class="devicon devicon-java-plain-wordmark colored"></i>
-                        </li>
+        <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
 
-                  </ul>
-
-                  <div className="subheading mb-3">Narzędzia:</div>
-                  <ul className="list-inline list-icons">
-                      <li className="list-inline-item">
-                            <i class="devicon devicon-wordpress-plain-wordmark colored"></i>
-                      </li>
-                      <li className="list-inline-item">
-                            <i class="devicon devicon-visualstudio-plain-wordmark colored"></i>
-                      </li>
-                      <li className="list-inline-item">
-                            <i class="devicon devicon-intellij-plain-wordmark colored"></i>
-                      </li>
-                      <li className="list-inline-item">
-                            <i class="devicon devicon-git-plain-wordmark colored"></i>
-                      </li>
-                  </ul>
-
-                  <div className="subheading mb-3">W czym się rozwijam:</div>
-                  <ul className="list-inline list-icons">
-                        <li className="list-inline-item">
-                                <i class="devicon devicon-react-original-wordmark colored"></i>   
-                        </li>
-                        <li className="list-inline-item">
-                                <i class="devicon devicon-angularjs-plain-wordmark"></i> 
-                        </li>
-                        <li className="list-inline-item">
-                                <i class="devicon devicon-nodejs-plain-wordmark colored"></i>     
-                        </li>
-                        <li className="list-inline-item">
-                                <i class="devicon devicon-typescript-plain colored"></i>    
-                        </li>
-                        <li className="list-inline-item">
-                                <i class="devicon devicon-webpack-plain-wordmark colored"></i>    
-                        </li>
+        <ul className="icon-container">
+        <div className="container-text mb-3">Z czego korzystam:</div>
+          <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-html5-plain colored"></i>
+                <h3 className="icon-h3-title ">html5</h3>
+              </span>
+            </li>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-css3-plain colored"></i>
+                <h3 className="icon-h3-title ">css3</h3>
+              </span>
+            </li>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-bootstrap-plain colored"></i>
+                <h3 className="icon-h3-title ">bootstrap</h3>
+              </span>
+            </li>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-javascript-plain colored"></i>
+                <h3 className="icon-h3-title ">javascript</h3>
+              </span>
+            </li>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-jquery-plain colored"></i>
+                <h3 className="icon-h3-title ">jquery</h3>
+              </span>
+            </li>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-react-original"></i>
+                <h3 className="icon-h3-title ">react</h3>
+              </span>
+            </li>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-java-plain colored"></i>
+                <h3 className="icon-h3-title ">java</h3>
+              </span>
+            </li>
+          </ul>
 
 
-                  </ul>
-              </div>
-          </section>
+          <ul className="icon-container">
+            <div className="container-text mb-3">Narzędzia:</div>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-git-plain colored"></i>
+                <h3 className="icon-h3-title ">git</h3>
+              </span>
+            </li>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-visualstudio-plain colored"></i>
+                <h3 className="icon-h3-title ">visualstudio</h3>
+              </span>
+            </li>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-intellij-plain colored"></i>
+                <h3 className="icon-h3-title ">intellij</h3>
+              </span>
+            </li>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-wordpress-plain colored"></i>
+                <h3 className="icon-h3-title ">wordpress</h3>
+              </span>
+            </li>
+          </ul>
+
+          <ul className="icon-container">
+            <div className="container-text mb-3">W czym się rozwijam:</div>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-nodejs-plain colored"></i>
+                <h3 className="icon-h3-title ">nodejs</h3>
+              </span>
+            </li>
+
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-typescript-plain colored"></i>
+                <h3 className="icon-h3-title ">typescript</h3>
+              </span>
+            </li>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-webpack-plain colored"></i>
+                <h3 className="icon-h3-title ">webpack</h3>
+              </span>
+            </li>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-react-plain colored"></i>
+                <h3 className="icon-h3-title ">react</h3>
+              </span>
+            </li>
+            <li  className="icon-single-container">
+              <span  >
+                <i className="icon-i-image devicon-babel-plain colored"></i>
+                <h3 className="icon-h3-title ">babel</h3>
+              </span>
+            </li>
+
+          </ul>
+    </section>
         
     );
   }
