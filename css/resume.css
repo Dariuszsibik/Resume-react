@@ -305,17 +305,106 @@ section.resume-section .resume-item .resume-date {
     font-size: 2.5rem;
 }
 
-.list-icons {
-    font-size: 3rem;
+
+.icon-container .icon-h3-title {
+    margin: 10px 0 5px;
+    padding: 20px 0 0;
+    font-size: 1em;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    transition: transform 0.2s;
 }
 
-.list-icons .list-inline-item i:hover {
+.icon-container li > span {
+    display: block;
+    height: 100%;
     color: #00381f;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+.icon-container li {
+    width: 13%;
+    float: left;
+    height: 90px;
+    text-align: center;
 }
 
-.devicon {
-    font-size: 6.8rem;
+.icon-container {
+    list-style: none;
 }
+
+/* h3 before */
+
+.icon-container .icon-h3-title:before {
+    content: '';
+    position: absolute;
+    background: #00381f;
+    width: 60px;
+    height: 2px;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -30px;
+    -webkit-transition: margin-top 0.2s;
+    -moz-transition: margin-top 0.2s;
+    transition: margin-top 0.2s;
+}
+
+
+/* i before */
+
+.icon-i-image:before {
+    font-family: 'devicon';
+    font-size: 3em;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* hover */
+.icon-container li > span:hover {
+    background: #00381f;
+}
+
+.icon-container li > span:hover .icon-h3-title {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+}
+
+.icon-container li > span:hover .icon-i-image:before, .icon-container li > span:hover .icon-h3-title {
+    color: #fff;
+}
+.icon-container li > span:hover .icon-h3-title:before {
+    background: #fff;
+    margin-top: 40px;
+}
+
+.container-text {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+    @media only screen and (max-width: 560px) {
+        .icon-container li  {
+            display: contents;
+        }
+        .container-text {
+            text-align: center;
+        }
+    }
+
+
 
 @keyframes test {
     0% {
