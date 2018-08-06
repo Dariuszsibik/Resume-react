@@ -3,8 +3,6 @@
     "language": "pl",
     "changeOn": "en",
     "about": "O mnie",
-    "experience": "Doświadczenie",
-    "skills": "Umiejętności",
     "interests": "Zainteresowania",
 
     "education": "Wykształcenie",
@@ -27,6 +25,22 @@
     "strefakursow_html": "Kurs HTML5 zaawansowany - Strefakursów 12/2017",
     "strefakursow_webpack": "Kurs Webpack - Strefakursów 05/2018",
     "strefakursow_git": "Kurs Git system kontroli wersji - Strefakursów 06/2018",
-    "strefakursow_nodejs": "Kurs Node.js dynamiczne aplikacje - Strefakursów 07/2018"
-  }
-  
+    "strefakursow_nodejs": "Kurs Node.js dynamiczne aplikacje - Strefakursów 07/2018",
+
+    "skills": "Umiejętności",
+    "skills_use": "Z czego korzystam",
+    "skills_tools": "Narzędzia",
+    "skills_develop": "W czym się rozwijam",
+
+    "experience": "Doświadczenie",
+    "experience_position": "Web Developer",
+    "experience_uj": "Uniwersytet Jagielloński w Krakowie",
+    "experience_uj_responsibilities1": "Praca nad projektami dla Uniwersytetu Jagiellońskiego, opartymi na platformie Liferay 6.2.5,",
+    "experience_uj_responsibilities2": "Frontend aplikacji: HTML, CSS, Bootstrap, JavaScript, jQuery,",
+    "experience_uj_responsibilities3": "Backend aplikacji: Java, Velocity,",
+    "experience_uj_responsibilities4": "Implementacja wymaganych zmian,",
+    "experience_uj_responsibilities5": "Poprawa bieżących błędów, oraz aktualizacja kodu w zdalnym repozytorium Gitlab,",
+    "experience_uj_responsibilities6": "Tworzenie stron w Liferay na podstawie struktur i szablonów,",
+    "experience_uj_responsibilities7": "Automatyzacja własnej pracy.",
+    "experience_uj_date": "07/2017 - Obecnie"
+}
