@@ -74,12 +74,6 @@ export default class Skills extends Component {
                 <h3 className="icon-h3-title ">intellij</h3>
               </span>
             </li>
-            <li  className="icon-single-container">
-              <span  >
-                <i className="icon-i-image devicon-wordpress-plain colored"></i>
-                <h3 className="icon-h3-title ">wordpress</h3>
-              </span>
-            </li>
           </ul>
 
           <ul className="icon-container">

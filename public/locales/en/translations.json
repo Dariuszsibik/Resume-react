@@ -3,15 +3,13 @@
     "language": "en",
     "changeOn": "pl",
     "about": "About",
-    "experience": "Experience",
-    "skills": "Skills",
     "interests": "Interests",
 
     "education": "Education",
     "education_university": "Pedagogical University in Cracow",
     "education_university_degree": "Degree: Engineer",
     "education_university_specialisation": "Specialisation: Applied Computer Science",
-    "education_university_diploma": "Thesis title: “Cloud computing security - Design of the Login and Registration script”", 
+    "education_university_diploma": "Thesis title: “Cloud computing security - Design of the Login and Registration script”",
     "education_university_date": "10/2011 - 03/2015",
     "eitca": "European Information Technologies Certification Academy",
     "eitca-is": "EITCA Information Technologies Security Programme",
@@ -27,8 +25,23 @@
     "strefakursow_html": "HTML5 advanced - Strefakursów 12/2017",
     "strefakursow_webpack": "Webpack - Strefakursów 05/2018",
     "strefakursow_git": "Git - Strefakursów 06/2018",
-    "strefakursow_nodejs": "Node.js - Strefakursów 07/2018"
+    "strefakursow_nodejs": "Node.js - Strefakursów 07/2018",
 
+    "skills": "Skills",
+    "skills_use": "What I use",
+    "skills_tools": "Tools",
+    "skills_develop": "What I develop myself",
 
-  }
-  
+    "experience": "Experience",
+    "experience_position": "Web Developer",
+    "experience_uj": "Jagiellonian University in Kraków",
+    "experience_uj_responsibilities1": "Working on projects for the Jagiellonian University, based on the Liferay 6.2.5 platform,",
+    "experience_uj_responsibilities2": "Working on Frontend applications: HTML, CSS, Bootstrap, JavaScript, jQuery,",
+    "experience_uj_responsibilities3": "Working on Backend applications : Java, Velocity,",
+    "experience_uj_responsibilities4": "Implementation of required changes,",
+    "experience_uj_responsibilities5": "Correcting current errors and updating the code in the Gitlab repository,",
+    "experience_uj_responsibilities6": "Creating pages in Liferay platform, based on structures and templates,",
+    "experience_uj_responsibilities7": "Automatization and improving of own work.",
+    "experience_uj_date": "07/2017 - Present"
+
+}

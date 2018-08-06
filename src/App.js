@@ -4,7 +4,7 @@ import SideBar from './components/SideBar.js';
 import Awards from './components/Awards.js';
 import About from './components/About.js';
 import Education from './components/Education.js';
-import Interests from './components/Interests.js';
+import Projects from './components/Projects.js';
 import Skills from './components/Skills.js';
 import Experience from './components/Experience';
 
@@ -43,8 +43,8 @@ class App extends Component {
       case 'skills':
           section = <Skills/>;
           break;
-      case 'interests':
-          section = <Interests/>;
+      case 'Projects':
+          section = <Projects/>;
           break;
       default: 
           section = null;

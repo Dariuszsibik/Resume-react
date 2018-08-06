@@ -45,8 +45,8 @@ import ChangeLanguage from './ChangeLanguage.js';
     const awardsClassName = classNames({
         'active': this.props.navActive === 'awards',
     })
-    const interestsClassName = classNames({
-        'active': this.props.navActive === 'interests',
+    const ProjectsClassName = classNames({
+        'active': this.props.navActive === 'Projects',
     })
 
     return (
@@ -69,7 +69,7 @@ import ChangeLanguage from './ChangeLanguage.js';
                                 <a className={`nav-link ${skillsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('skills') } href="#skills">{t("skills")}</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${interestsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('interests') } href="#interests">{t("interests")}</a>
+                                <a className={`nav-link ${ProjectsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('Projects') } href="#Projects">{t("Projects")}</a>
                             </li>
                             <li className="nav-item">
                                 <a className={`nav-link ${awardsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('awards') } href="#awards">{t("awards")}</a>
