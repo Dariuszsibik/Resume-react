@@ -1,8 +1,12 @@
 
 import React, { Component } from 'react';
+import { translate, Trans } from 'react-i18next';
 
-export default class Skills extends Component {
+class Skills extends Component {
   render() {
+    const { t, i18n } = this.props;
+    const language = t("language");
+
     return (
 
         <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
@@ -116,3 +120,5 @@ export default class Skills extends Component {
     );
   }
 }
+
+export default translate('translations')(Skills);
