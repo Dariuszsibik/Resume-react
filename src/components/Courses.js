@@ -9,7 +9,7 @@ class Courses extends Component {
     return (
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="courses">
         <div className="my-auto">
-        <h2 className="mb-5">Courses &amp; Certifications</h2>
+        <h2 className="mb-5">{t("courses")}</h2>
         <ul className="fa-ul mb-0">
             <li>
                     <i className="fa-li fa fa-trophy text-warning"></i> {t("strefakursow_nodejs")}

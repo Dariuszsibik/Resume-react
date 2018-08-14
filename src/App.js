@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './components/Nav.js';
 import SideBar from './components/SideBar.js';
-import Awards from './components/Awards.js';
+import Courses from './components/Courses.js';
 import About from './components/About.js';
 import Education from './components/Education.js';
 import Projects from './components/Projects.js';
@@ -28,8 +28,8 @@ class App extends Component {
    
     var section = null;
     switch (this.state.navActive) {
-      case 'awards':
-          section = <Awards/>;
+      case 'courses':
+          section = <Courses/>;
           break;
       case 'about':
           section = <About/>;
@@ -43,7 +43,7 @@ class App extends Component {
       case 'skills':
           section = <Skills/>;
           break;
-      case 'Projects':
+      case 'projects':
           section = <Projects/>;
           break;
       default: 

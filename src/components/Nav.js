@@ -43,10 +43,10 @@ import ChangeLanguage from './ChangeLanguage.js';
         'active': this.props.navActive === 'skills',
     })
     const awardsClassName = classNames({
-        'active': this.props.navActive === 'awards',
+        'active': this.props.navActive === 'courses',
     })
     const ProjectsClassName = classNames({
-        'active': this.props.navActive === 'Projects',
+        'active': this.props.navActive === 'projects',
     })
 
     return (
@@ -69,10 +69,10 @@ import ChangeLanguage from './ChangeLanguage.js';
                                 <a className={`nav-link ${skillsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('skills') } href="#skills">{t("skills")}</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${ProjectsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('Projects') } href="#Projects">{t("Projects")}</a>
+                                <a className={`nav-link ${ProjectsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('projects') } href="#projects">{t("projects")}</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${awardsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('awards') } href="#awards">{t("awards")}</a>
+                                <a className={`nav-link ${awardsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('courses') } href="#courses">{t("courses")}</a>
                             </li>
                             </div>
                             <ChangeLanguage/>

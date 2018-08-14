@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
 import classNames from 'classnames';
+import Logo from '../../img/whinepad.jpg'
 
 export default class Whinepad extends Component {
 
@@ -16,28 +17,11 @@ export default class Whinepad extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-xs-6">
-              <img class="card-front-img" src="https://source.unsplash.com/w8YICpz1I10/358x458" />
+              <img class="card-front-img" src={Logo} />
             </div>
 
             <div className="col-xs-6 side-front-content">
-              <h2>Czech based</h2>
-
-              <h1>UI/UX Designer</h1>
-
-              <p>
-                Andrey is driven by turning ideas into scalable and and
-                empowering experiences that solve real life problems.
-              </p>
-
-              <p>
-                He is currently the founder of Dvorak Media. Previously, Andrey
-                was a product designer at Dropbox.
-              </p>
-
-              <p>
-                Over the years, Michael has been priviledged to have worked with
-                Adobe, Evernote, Square and more.
-              </p>
+              <h2>Whinepad</h2>
             </div>
           </div>
         </div>
@@ -45,29 +29,16 @@ export default class Whinepad extends Component {
 
 
        <div className="card-side side-back">
-        <div className="container-fluid">
-          <h1>Let's get in touch!</h1>
-          <form formAction="" className="card-form">
-            <div className="row">
-              <div className="col-xs-6">
-                Test Test TEst
-              </div>
-              <div className="col-xs-6">
-              Test Test TEst
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-xs-6">
-              Test Test TEst
-              </div>
-              <div className="col-xs-6">
-              Test Test TEst
-              </div>
-            </div>
-Test Test TEst
 
-Test Test TEst
-          </form>
+        <div className="container-fluid">
+        <h3 class="card-title">Whinepad</h3>
+        <p class="card-text">Aplikacja zbudowana na podstawie książki Stoyan&nbsp;Stefanov&nbsp;-&nbsp;React w działaniu </p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">React</li>
+                    <li class="list-group-item">JSX</li>
+                    <li class="list-group-item">Flux</li>
+                </ul>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
       </div>
