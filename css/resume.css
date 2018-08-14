@@ -92,9 +92,6 @@ a {
 
 .navbar-dark {
     background-color: #805c3f;
-}
-
-.navbar-dark {
     border: 1px solid #00381f;
     border-bottom: 4px solid #00381f;
     border-left: none;
@@ -125,6 +122,10 @@ a {
     background-color: #89674d;
     animation-name: navItemLinkHover;
     animation-duration: 0.6s;
+}
+
+.nav-link {
+text-transform: uppercase;
 }
 
 @media (min-width: 992px) {

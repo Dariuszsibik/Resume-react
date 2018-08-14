@@ -3,7 +3,6 @@
     "language": "en",
     "changeOn": "pl",
     "about": "About",
-    "interests": "Interests",
 
     "education": "Education",
     "education_university": "Pedagogical University in Cracow",
@@ -15,7 +14,7 @@
     "eitca-is": "EITCA Information Technologies Security Programme",
     "eitca-date": "10/2015 - 12/2016",
 
-    "awards": "Awards",
+    "courses": "Courses",
     "ericpol": "Summer C ++ Programming School - Ericpol 07/2015",
     "artax": "WebMaster Front and Back Developer - Artax 11/2015",
     "sages": "From SASS to LESS Improve CSS - Sages 07/2016",
@@ -42,6 +41,7 @@
     "experience_uj_responsibilities5": "Correcting current errors and updating the code in the Gitlab repository,",
     "experience_uj_responsibilities6": "Creating pages in Liferay platform, based on structures and templates,",
     "experience_uj_responsibilities7": "Automatization and improving of own work.",
-    "experience_uj_date": "07/2017 - Present"
+    "experience_uj_date": "07/2017 - Present",
 
+    "projects": "Projects"
 }
