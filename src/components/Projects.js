@@ -9,25 +9,21 @@ export default class Projects extends Component {
 
     return (
 
-<section className="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
-    <div class="container">
-        <div class="row">
-            <div class="col">
+<section className="resume-section p-3 p-lg-5" id="projects">
+
                 <Whinepad/>
-            </div>
-            <div class="col">
+
+
                 <Whinepad/>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
+
+
+
                 <Whinepad/>
-            </div>
-            <div class="col">
+
+
                 <Whinepad/>
-            </div>
-        </div>
-    </div>
+
+
 </section>
     );
   }

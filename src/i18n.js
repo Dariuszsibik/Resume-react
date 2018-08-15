@@ -21,6 +21,7 @@ i18n
       addPath: path.join(__dirname, '/locales/{{lng}}/{{ns}}.missing.json')
    },
 */
+
     react: {
       wait: true
     }
