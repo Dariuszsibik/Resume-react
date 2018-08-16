@@ -9,7 +9,7 @@
     position: relative;
     z-index: 1;
     margin: 32px auto;
-    max-width: 720px;
+    max-width: 520px;
     -webkit-perspective: 1000px;
     perspective: 1000px;
     float: left;
@@ -23,6 +23,7 @@
 
 
 /*- Card body -*/
+
 .card-body {
     width: 500px;
     height: 100%;
@@ -161,26 +162,4 @@ textarea {
 
 .social-links i {
     font-size: 24px;
-}
-
-@media (min-width: 992px) {
-    .test {
-        position: relative;
-        z-index: 1;
-        width: 40%;
-        height: 280px;
-        -webkit-perspective: 1000px;
-        perspective: 1000px;
-        float: left;
-    }
-}
-
-@media (min-width: 992px) {
-.card-container {
-    width: 100%;
-    height: 75%;
-}
-.card-body {
-    width: 500px;
-}
 }

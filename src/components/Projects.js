@@ -10,20 +10,10 @@ export default class Projects extends Component {
     return (
 
 <section className="resume-section p-3 p-lg-5" id="projects">
-
                 <Whinepad/>
-
-
                 <Whinepad/>
-
-
-
                 <Whinepad/>
-
-
                 <Whinepad/>
-
-
 </section>
     );
   }

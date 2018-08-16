@@ -10,33 +10,46 @@ class Experience extends Component {
 
       <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
       <div className="my-auto">
-          <h2 className="experience-title mb-2.5">{t('experience')}</h2>
-
-          <div className="resume-item d-flex flex-column flex-md-row mb-5">
-              <div className="resume-content mr-auto">
-                  <h3 className="mb-0">{t('experience_position')}</h3>
-                  <div className="subheading mb-3">{t('experience_uj')}</div>
-                        <ul class="fa-ul mb-0">
+          <div className="resume-item">
+              <div className="resume-content mr-auto text-center">
+                  <h3 className="experience-title mb-0">{t('experience_position')}</h3>
+                  <span className="text-primary">{t('experience_uj_date')}</span>
+                  <div className="experience-title subheading mb-3">{t('experience_uj')}</div>
+                        <ul className="fa-ul mb-0">
                             <li>
-                                <i class="fa-li fa fa-check"></i> {t('experience_uj_responsibilities1')} </li>
+                                <i className="fa-li fa fa-check-circle"></i> {t('experience_uj_responsibilities1')} </li>
                             <li>
-                                <i class="fa-li fa fa-check"></i> {t('experience_uj_responsibilities2')}</li>
+                                <i className="fa-li fa fa-check-circle"></i> {t('experience_uj_responsibilities2')}</li>
                             <li>
-                                <i class="fa-li fa fa-check"></i> {t('experience_uj_responsibilities3')}</li>
+                                <i className="fa-li fa fa-check-circle"></i> {t('experience_uj_responsibilities3')}</li>
                             <li>
-                                <i class="fa-li fa fa-check"></i> {t('experience_uj_responsibilities4')}</li>
+                                <i className="fa-li fa fa-check-circle"></i> {t('experience_uj_responsibilities4')}</li>
                             <li>
-                                <i class="fa-li fa fa-check"></i> {t('experience_uj_responsibilities5')}</li>
+                                <i className="fa-li fa fa-check-circle"></i> {t('experience_uj_responsibilities5')}</li>
                             <li>
-                                <i class="fa-li fa fa-check"></i> {t('experience_uj_responsibilities6')}</li>
+                                <i className="fa-li fa fa-check-circle"></i> {t('experience_uj_responsibilities6')}</li>
                             <li>
-                                <i class="fa-li fa fa-check"></i> {t('experience_uj_responsibilities7')}</li>
+                                <i className="fa-li fa fa-check-circle"></i> {t('experience_uj_responsibilities7')}</li>
                         </ul>
               </div>
-              <div className="resume-date text-md-right">
-                  <span className="text-primary">{t('experience_uj_date')}</span>
-              </div>
           </div>
+                 <div className="experience-projects"> 
+                    <h2 className="experience-projects-title">Przykładowe projekty :</h2>
+                        <ul className="fa-ul mb-0 experience-projects-item">
+                            <li>
+                                <a href="https://login.devel.uj.edu.pl/login" target="_blank"><i className="fa-li fa fa-code"></i>Punkt logowania</a></li>
+                                <li>
+                                <a href="http://www.wbbib.uj.edu.pl" target="_blank"><i className="fa-li fa fa-code"></i>Wydział Biochemii, Biofizyki i Biotechnologii</a></li>
+                                <li>
+                                <a href="http://www.wb.uj.edu.pl" target="_blank"><i className="fa-li fa fa-code"></i>Wydział Biologii</a></li>
+                                <li>
+                                <a href="http://www.phils.uj.edu.pl" target="_blank"><i className="fa-li fa fa-code"></i>Wydział Filozoficzny</a></li>
+                                <li>
+                                <a href="http://www.chemia.uj.edu.pl" target="_blank"><i className="fa-li fa fa-code"></i>Wydział Chemii</a></li>
+                                <li>
+                                <a href="http://www.ibhp.uj.edu.pl" target="_blank"><i className="fa-li fa fa-code"></i>Inspektorat BHP</a></li>
+                        </ul>
+                </div>
 
       </div>
 
