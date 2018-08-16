@@ -8,40 +8,6 @@ body {
         padding-top: 0;
         padding-left: 17rem;
     }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Saira Extra Condensed', serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #343a40;
-}
-
-h1 {
-    font-size: 6rem;
-    line-height: 5.5rem;
-}
-
-h2 {
-    font-size: 3.5rem;
-}
-
-a {
-    color: #eed6b5;
-}
-
-@media (max-width: 992px) {
-    #sidebar {
-        display: none;
-    }
-}
-
-@media (min-width: 992px) {
     #sidebar {
         position: fixed;
         top: 0;
@@ -83,6 +49,46 @@ a {
     }
     #sidebar .navbar-collapse .navbar-nav .nav-item .nav-link {
         display: block;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+a {
+    color: #eed6b5;
+}
+
+.my-auto {
+    max-width: 75%;
+    margin: auto;
+}
+
+.fa-ul {
+    text-align: justify;
+}
+
+@media (max-width: 991px) {
+    #sidebar {
+        display: none;
     }
 }
 
@@ -161,13 +167,13 @@ text-transform: uppercase;
     border: 1px solid #00381f;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 991px) {
     .languageMin {
         display: none !important;
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .languageMax {
         display: none !important;
     }
@@ -261,7 +267,7 @@ text-transform: uppercase;
     text-transform: capitalize;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     #sidebar {
         display: none;
     }
@@ -306,6 +312,27 @@ section.resume-section .resume-item .resume-date {
     font-size: 2.5rem;
 }
 
+.experience-projects {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.experience-projects-title {
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: 1.7rem;
+}
+
+.experience-projects-item a {
+    color: black;
+}
+
+.experience-projects-item a:hover {
+    text-shadow: 0.3px 0.3px red;
+}
 
 .icon-container .icon-h3-title {
     margin: 10px 0 5px;
