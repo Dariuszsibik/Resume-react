@@ -55,6 +55,9 @@
     .languageMin {
         display: none !important;
     }
+    .about-icons {
+        display: none;
+    }
 }
 
 @media (max-width: 991px) {
