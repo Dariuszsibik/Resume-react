@@ -1,0 +1,236 @@
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+        padding-left: 17rem;
+    }
+    #sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        height: 100vh;
+        border-right: 2px solid #00381f;
+    }
+    .list-social-icons {
+        text-align: center;
+    }
+    #sidebar .navbar-brand {
+        display: flex;
+        margin: auto auto 0;
+        margin-top: 10px;
+        padding: 0.5rem;
+    }
+    #sidebar .navbar-brand .img-profile {
+        max-width: 100rem;
+        max-height: 10rem;
+        border: 2px solid #00381f;
+        margin-top: 50px;
+    }
+    #sidebar .navbar-collapse {
+        display: flex;
+        align-items: flex-start;
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: auto;
+    }
+    #sidebar .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    #sidebar .navbar-collapse .navbar-nav .nav-item {
+        display: block;
+    }
+    #sidebar .navbar-collapse .navbar-nav .nav-item .nav-link {
+        display: block;
+    }
+    section.resume-section {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .buttonEn {
+        display: block !important;
+    }
+    .languageMin {
+        display: none !important;
+    }
+}
+
+@media (max-width: 991px) {
+    #sidebar {
+        display: none;
+    }
+    .languageMax {
+        display: none !important;
+    }
+    #sidebar {
+        display: none;
+    }
+    #onToggle.show {
+        animation: test 0.35s linear;
+        height: 250px;
+        display: block;
+    }
+    #onToggle.hide {
+        animation: test2 0.35s linear;
+        height: 0px;
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    section.resume-section {
+        max-height: 470px;
+    }
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .icon-container li {
+        display: contents;
+    }
+    .container-text {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .courses-title {
+        font-family: 'Open Sans', serif;
+        font-size: 3rem;
+    }
+    .courses-name {
+        font-family: 'Open Sans', serif;
+        font-size: 1.4rem;
+        margin: 10px;
+    }
+    .skills-text {
+        font-family: 'Open Sans', serif;
+        font-size: 2.2rem;
+        margin: 20px;
+    }
+    .icon-container .icon-h3-title {
+        font-family: 'Open Sans', serif;
+        font-size: 0.7rem;
+    }
+    .experience-title {
+        font-family: 'Open Sans', serif;
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .experience-data {
+        font-family: 'Open Sans', serif;
+        font-size: 0.9rem;
+    }
+    .experience-projects-title {
+        font-family: 'Open Sans', serif;
+        font-size: 1.1rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .experience-items {
+        font-family: 'Open Sans', serif;
+        font-size: 1.0rem;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+    section.resume-section {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .education-title {
+        font-size: 2.4rem;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .education-degree {
+        font-size: 1.6rem;
+    }
+    .education-date {
+        margin-top: 25px;
+        font-size: 1.2rem;
+        padding-top: 25px;
+        color: green;
+    }
+    .education-content {
+        font-size: 1.4rem;
+        margin: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 1500px) {
+    .courses-title {
+        font-family: 'Open Sans', serif;
+        font-size: 3rem;
+    }
+    .courses-name {
+        font-family: 'Open Sans', serif;
+        font-size: 1.6rem;
+        margin: 10px;
+    }
+    .skills-text {
+        font-family: 'Open Sans', serif;
+        font-size: 3rem;
+        margin: 30px;
+    }
+    .icon-container .icon-h3-title {
+        font-family: 'Open Sans', serif;
+        font-size: 0.9rem;
+    }
+    .experience-title {
+        font-family: 'Open Sans', serif;
+        font-size: 2.5rem;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    .experience-data {
+        font-family: 'Open Sans', serif;
+        font-size: 2rem;
+    }
+    .experience-projects-title {
+        font-family: 'Open Sans', serif;
+        font-size: 2rem;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    .experience-items {
+        font-family: 'Open Sans', serif;
+        font-size: 1.2rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .courses-title {
+        font-family: 'Open Sans', serif;
+        font-size: 5rem;
+    }
+    .courses-name {
+        font-family: 'Open Sans', serif;
+        font-size: 2.4rem;
+        margin: 15px;
+    }
+    .skills-text {
+        font-family: 'Open Sans', serif;
+        font-size: 4.3rem;
+        margin: 35px;
+    }
+    .icon-container .icon-h3-title {
+        font-family: 'Open Sans', serif;
+        font-size: 1.5rem;
+    }
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
