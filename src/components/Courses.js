@@ -7,38 +7,38 @@ class Courses extends Component {
     const language = t("language");
 
     return (
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="courses">
+      <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="courses">
         <div className="my-auto">
-        <h2 className="mb-5">{t("courses")}</h2>
+        <h2 className="mb-5 courses-title">{t("courses-certificates")}</h2>
         <ul className="fa-ul mb-0">
-            <li>
+            <li className="courses-name">
                     <i className="fa-li fa fa-trophy text-warning"></i> {t("strefakursow_nodejs")}
             </li>
-            <li>
+            <li className="courses-name">
                     <i className="fa-li fa fa-trophy text-warning"></i> {t("strefakursow_git")}
             </li>
-            <li>
+            <li className="courses-name">
                     <i className="fa-li fa fa-trophy text-warning"></i> {t("strefakursow_webpack")}
             </li>
-            <li>
+            <li className="courses-name">
                     <i className="fa-li fa fa-trophy text-warning"></i> {t("strefakursow_html")}
             </li>
-            <li>
+            <li className="courses-name">
                     <i className="fa-li fa fa-trophy text-warning"></i> {t("strefakursow_ekosystemjs")}
             </li>
-            <li>
+            <li className="courses-name">
                     <i className="fa-li fa fa-trophy text-warning"></i> {t("strefakursow_android")}
             </li>
-            <li>
+            <li className="courses-name">
                     <i className="fa-li fa fa-trophy text-warning"></i> {t("eitca_database")}
             </li>
-            <li>
+            <li className="courses-name">
                     <i className="fa-li fa fa-trophy text-warning"></i> {t("sages")}
             </li>
-            <li>
+            <li className="courses-name">
                     <i className="fa-li fa fa-trophy text-warning"></i> {t("artax")}
             </li>
-            <li>
+            <li className="courses-name">
                     <i className="fa-li fa fa-trophy text-warning"></i> {t("ericpol")}
             </li>
         </ul>

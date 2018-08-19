@@ -12,7 +12,7 @@ class Skills extends Component {
         <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
 
         <ul className="icon-container">
-        <div className="container-text mb-3">{t("skills_use")}:</div>
+        <div className="container-text mb-3 skills-text">{t("skills_use")}:</div>
           <li  className="icon-single-container">
               <span  >
                 <i className="icon-i-image devicon-html5-plain colored"></i>
@@ -59,7 +59,7 @@ class Skills extends Component {
 
 
           <ul className="icon-container">
-            <div className="container-text mb-3">{t("skills_tools")}:</div>
+            <div className="container-text mb-3 skills-text">{t("skills_tools")}:</div>
             <li  className="icon-single-container">
               <span  >
                 <i className="icon-i-image devicon-git-plain colored"></i>
@@ -81,7 +81,7 @@ class Skills extends Component {
           </ul>
 
           <ul className="icon-container">
-            <div className="container-text mb-3">{t("skills_develop")}:</div>
+            <div className="container-text mb-3 skills-text">{t("skills_develop")}:</div>
             <li  className="icon-single-container">
               <span  >
                 <i className="icon-i-image devicon-nodejs-plain colored"></i>
