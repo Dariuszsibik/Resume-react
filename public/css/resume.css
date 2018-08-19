@@ -24,6 +24,70 @@ h2 {
     font-size: 3.5rem;
 }
 
+.text-resume {
+    color: #00381f;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.about-icons {
+        text-align: center;
+}
+
+.about-icons a {
+        display: inline-block;
+        height: 3.5rem;
+        width: 3.5rem;
+        background-color: #00381f;
+        color: #fff!important;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+        margin-right: 1rem;
+}
+
+.about-baners {
+
+    width: 70vw;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.about-baners-item {
+    border: 3px double #00381f;
+    height: 48%;
+    width: 48%;
+    display: inline-block;
+    padding-right: 15px;
+    margin: 5px;
+}
+
+.about-icon-facebook, .about-icon-linedin, .about-icon-github {
+    background: #00381f;
+    transition: background 0.5s ease-in-out;
+}
+
+.about-icon-facebook:hover {
+    background: #4267B2;
+
+}
+
+.about-icon-linedin:hover {
+    background: #4099C8;
+
+}
+
+.about-icon-github:hover {
+    background: #24292E !important;
+}
+
+.about-list-item {
+    text-align: center;
+}
+
 .courses-title {
     font-family: 'Open Sans', serif;
     font-size: 2rem;

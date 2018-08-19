@@ -24,7 +24,7 @@ export default class About extends Component {
   
 
   render() {
-    const isMobile = this.state.resolution <= 500;
+    const isMobile = this.state.resolution <= 991;
   
     if (isMobile) {
       return (
@@ -48,20 +48,22 @@ function MobileView() {
     <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div className="my-auto">
           <h1 className="mb-0">Dariusz
-            <span className="text-primary">Sibik</span>
+            <span className="text-resume">Sibik</span>
           </h1>
-          <div className="subheading mb-5">Kraków · 883 739 377 · 
-            <a href="sibikdariusz@gmail.com"> sibikdariusz@gmail.com</a>
+          <div className="about-list subheading mb-5">
+              <div className="about-list-item"><span className="about-list-item-span">Miejscowość: </span>Kraków </div>
+              <div className="about-list-item"> <span className="about-list-item-span">Telefon: </span>883 739 377 </div>
+              <div className="about-list-item"> <span className="about-list-item-span">Email: </span><a href="sibikdariusz@gmail.com"> sibikdariusz@gmail.com</a> </div>
           </div>
           <p className="lead mb-5">tekst o mnie</p>
-          <div className="social-icons">
-            <a href="#">
+          <div className="about-icons">
+          <a href="#" className="about-icon-linedin">
               <i className="fa fa-linkedin"></i>
             </a>
-            <a href="#">
+            <a href="#" className="about-icon-github">
               <i className="fa fa-github"></i>
             </a>
-            <a href="#">
+            <a href="#" className="about-icon-facebook">
               <i className="fa fa-facebook"></i>
             </a>
           </div>
@@ -72,27 +74,26 @@ function MobileView() {
 
 function DesktopView() {
   return (
-    <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+    <section id="about">
         <div className="my-auto">
-          <h1 className="mb-0">Dariusz
-            <span className="text-primary">Sibik</span>
+          <h1 className="about-title mb-0">Dariusz
+            <span className="text-resume">Sibik</span>
           </h1>
-          <div className="subheading mb-5">Kraków · 883 739 377 · 
-            <a href="sibikdariusz@gmail.com"> sibikdariusz@gmail.com</a>
+          <div className="about-list subheading mb-5">
+              <div className="about-list-item"><span className="about-list-item-span">Miejscowość: </span>Kraków </div>
+              <div className="about-list-item"> <span className="about-list-item-span">Telefon: </span>883 739 377 </div>
+              <div className="about-list-item"> <span className="about-list-item-span">Email: </span><a href="sibikdariusz@gmail.com"> sibikdariusz@gmail.com</a> </div>
           </div>
-          <p className="lead mb-5">tekst o mnie</p>
-          <div className="social-icons">
-            <a href="#">
-              <i className="fa fa-linkedin"></i>
-            </a>
-            <a href="#">
-              <i className="fa fa-github"></i>
-            </a>
-            <a href="#">
-              <i className="fa fa-facebook"></i>
-            </a>
-          </div>
+              <p className="lead">tekst o mnie</p>
+        </div>
+        <div className="about-baners">
+        <div className="about-baners-item"></div>
+        <div className="about-baners-item"></div>
+        <div className="about-baners-item"></div>
+        <div className="about-baners-item"></div>
         </div>
       </section>
+
+
   );
 }

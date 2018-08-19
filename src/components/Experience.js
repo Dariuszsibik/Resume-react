@@ -13,7 +13,7 @@ class Experience extends Component {
           <div className="resume-item">
               <div className="resume-content mr-auto text-center">
                   <h3 className="experience-title mb-0">{t('experience_position')}</h3>
-                  <span className="experience-data text-primary">{t('experience_uj_date')}</span>
+                  <span className="experience-data text-resume">{t('experience_uj_date')}</span>
                   <div className="experience-title subheading mb-3">{t('experience_uj')}</div>
                         <ul className="fa-ul mb-0">
                             <li className="experience-items">

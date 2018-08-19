@@ -13,23 +13,23 @@ class Education extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row mb-5">
               <div className="resume-content mr-auto">
-                  <h3 className="experience-title subheading mb-3">{t("education_university")}</h3>
-                  <div className="subheading mb-3">{t("education_university_degree")}</div>
-                  <div>{t("education_university_specialisation")}</div>
-                  <p>{t("education_university_diploma")}</p>
+                  <h3 className="education-title">{t("education_university")}</h3>
+                  <div className="education-degree subheading mb-3">{t("education_university_degree")}</div>
+                  <div className="education-content">{t("education_university_specialisation")}</div>
+                  <p className="education-content">{t("education_university_diploma")}</p>
               </div>
-              <div className="resume-date text-md-right">
-                  <span className="text-primary">{t("education_university_date")}</span>
+              <div className="education-date  resume-date text-md-right">
+                  <span className="text-resume">{t("education_university_date")}</span>
               </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row mb-5">
               <div className="resume-content mr-auto">
-                  <h3 className="experience-title subheading mb-3">{t("eitca")}</h3>
-                  <div className="subheading mb-3">{t("eitca-is")}</div>
+                  <h3 className="education-title subheading mb-3">{t("eitca")}</h3>
+                  <div className="education-content subheading mb-3">{t("eitca-is")}</div>
               </div>
-              <div className="resume-date text-md-right">
-                  <span className="text-primary">{t("eitca-date")}</span>
+              <div className="education-date resume-date text-md-right">
+                  <span className="text-resume">{t("eitca-date")}</span>
               </div>
           </div>
 

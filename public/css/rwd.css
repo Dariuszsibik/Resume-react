@@ -46,8 +46,8 @@
         display: block;
     }
     section.resume-section {
-        padding-top: 3rem !important;
-        padding-bottom: 3rem !important;
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
     }
     .buttonEn {
         display: block !important;
@@ -104,40 +104,63 @@
     }
     .courses-name {
         font-family: 'Open Sans', serif;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         margin: 10px;
     }
     .skills-text {
         font-family: 'Open Sans', serif;
-        font-size: 3rem;
-        margin: 30px;
+        font-size: 2.2rem;
+        margin: 20px;
     }
     .icon-container .icon-h3-title {
         font-family: 'Open Sans', serif;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     .experience-title {
         font-family: 'Open Sans', serif;
-        font-size: 2.5rem;
-        margin-top: 40px;
-        margin-bottom: 15px;
-    }
-    .experience-data {
-        font-family: 'Open Sans', serif;
-        font-size: 2rem;
-    }
-    .experience-projects-title {
-        font-family: 'Open Sans', serif;
-        font-size: 2rem;
-        margin-top: 40px;
-        margin-bottom: 15px;
-    }
-    .experience-items {
-        font-family: 'Open Sans', serif;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    .experience-data {
+        font-family: 'Open Sans', serif;
+        font-size: 0.9rem;
+    }
+    .experience-projects-title {
+        font-family: 'Open Sans', serif;
+        font-size: 1.1rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .experience-items {
+        font-family: 'Open Sans', serif;
+        font-size: 1.0rem;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+    section.resume-section {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .education-title {
+        font-size: 2.4rem;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .education-degree {
+        font-size: 1.6rem;
+    }
+    .education-date {
+        margin-top: 25px;
+        font-size: 1.2rem;
+        padding-top: 25px;
+        color: green;
+    }
+    .education-content {
+        font-size: 1.4rem;
+        margin: 15px;
+    }
+
 }
 
 @media only screen and (min-width: 1500px) {
@@ -181,6 +204,10 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
 }
 
 @media only screen and (min-width: 1800px) {
@@ -201,5 +228,9 @@
     .icon-container .icon-h3-title {
         font-family: 'Open Sans', serif;
         font-size: 1.5rem;
+    }
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
     }
 }
