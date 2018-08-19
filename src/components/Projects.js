@@ -9,11 +9,13 @@ export default class Projects extends Component {
 
     return (
 
-<section className="resume-section p-3 p-lg-5" id="projects">
+<section className="" id="projects">
+      <div className="test-t">
                 <Whinepad/>
                 <Whinepad/>
                 <Whinepad/>
                 <Whinepad/>
+      </div>
 </section>
     );
   }

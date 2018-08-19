@@ -49,22 +49,6 @@ h2 {
         margin-right: 1rem;
 }
 
-.about-baners {
-
-    width: 70vw;
-    height: 50vh;
-    margin: 0 auto;
-}
-
-.about-baners-item {
-    border: 3px double #00381f;
-    height: 48%;
-    width: 48%;
-    display: inline-block;
-    padding-right: 15px;
-    margin: 5px;
-}
-
 .about-icon-facebook, .about-icon-linedin, .about-icon-github {
     background: #00381f;
     transition: background 0.5s ease-in-out;

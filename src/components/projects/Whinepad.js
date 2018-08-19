@@ -8,7 +8,7 @@ export default class Whinepad extends Component {
   render() {
 
     return (
-<div className="test">
+<div className="project-whinepad">
 
       <div className="card-container">
         <div className="card-body">
@@ -21,6 +21,7 @@ export default class Whinepad extends Component {
             </div>
 
             <div className="col-xs-6 side-front-content">
+            <h3>Whinepad</h3>
             </div>
           </div>
         </div>

@@ -74,7 +74,7 @@ function MobileView() {
 
 function DesktopView() {
   return (
-    <section id="about">
+    <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="about">
         <div className="my-auto">
           <h1 className="about-title mb-0">Dariusz
             <span className="text-resume">Sibik</span>
@@ -86,12 +86,7 @@ function DesktopView() {
           </div>
               <p className="lead">tekst o mnie</p>
         </div>
-        <div className="about-baners">
-        <div className="about-baners-item"></div>
-        <div className="about-baners-item"></div>
-        <div className="about-baners-item"></div>
-        <div className="about-baners-item"></div>
-        </div>
+
       </section>
 
 
