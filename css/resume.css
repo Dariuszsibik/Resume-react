@@ -24,12 +24,36 @@ h2 {
     font-size: 3.5rem;
 }
 
-.text-resume {
-    color: #00381f;
-}
-
 .about-title {
     text-align: center;
+    font-family: serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #343a40;
+    padding-top: 40px;
+}
+
+.about-me {
+    padding-top: 10px;
+    color: #868e96 !important;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.about-list-item-span {
+    color: #00381f;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.about-title-item {
+    color: #9d7750;
+    padding-left: 20px;
 }
 
 .about-icons {
@@ -49,22 +73,6 @@ h2 {
         margin-right: 1rem;
 }
 
-.about-baners {
-
-    width: 70vw;
-    height: 50vh;
-    margin: 0 auto;
-}
-
-.about-baners-item {
-    border: 3px double #00381f;
-    height: 48%;
-    width: 48%;
-    display: inline-block;
-    padding-right: 15px;
-    margin: 5px;
-}
-
 .about-icon-facebook, .about-icon-linedin, .about-icon-github {
     background: #00381f;
     transition: background 0.5s ease-in-out;
@@ -82,6 +90,11 @@ h2 {
 
 .about-icon-github:hover {
     background: #24292E !important;
+}
+
+.about-list {
+margin-top: 30px;
+margin-bottom: 20px;
 }
 
 .about-list-item {
