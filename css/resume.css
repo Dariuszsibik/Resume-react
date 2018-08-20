@@ -57,35 +57,35 @@ h2 {
 }
 
 .about-icons {
-        text-align: center;
+    text-align: center;
 }
 
 .about-icons a {
-        display: inline-block;
-        height: 3.5rem;
-        width: 3.5rem;
-        background-color: #00381f;
-        color: #fff!important;
-        border-radius: 100%;
-        text-align: center;
-        font-size: 1.5rem;
-        line-height: 3.5rem;
-        margin-right: 1rem;
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #00381f;
+    color: #fff!important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
 }
 
-.about-icon-facebook, .about-icon-linedin, .about-icon-github {
+.about-icon-facebook,
+.about-icon-linedin,
+.about-icon-github {
     background: #00381f;
     transition: background 0.5s ease-in-out;
 }
 
 .about-icon-facebook:hover {
     background: #4267B2;
-
 }
 
 .about-icon-linedin:hover {
     background: #4099C8;
-
 }
 
 .about-icon-github:hover {
@@ -93,12 +93,21 @@ h2 {
 }
 
 .about-list {
-margin-top: 30px;
-margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .about-list-item {
     text-align: center;
+}
+
+.about-email {
+    color: #00381f;
+}
+
+.about-email:hover {
+    color: #eed6b5;
+    text-decoration: none;
 }
 
 .courses-title {
@@ -115,6 +124,34 @@ margin-bottom: 20px;
 .skills-text {
     font-family: 'Open Sans', serif;
     font-size: 2rem;
+}
+
+.education-title {
+    font-size: 2.4rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.education-degree {
+    font-size: 1.6rem;
+}
+
+.education-date {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    padding-top: 25px;
+}
+
+.education-content {
+    font-size: 1.4rem;
+    margin: 15px;
+}
+
+.experience-data,
+.education-date {
+    color: #9d7750;
 }
 
 .icon-container .icon-h3-title {
