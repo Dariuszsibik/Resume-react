@@ -163,3 +163,7 @@ textarea {
 .social-links i {
     font-size: 24px;
 }
+
+.projects-container {
+    display: flex;
+}

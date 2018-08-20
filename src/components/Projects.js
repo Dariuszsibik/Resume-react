@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 import Whinepad from './projects/Whinepad.js';
+import CashClicker from './projects/CashClicker.js';
 
 export default class Projects extends Component {
 
@@ -10,12 +11,10 @@ export default class Projects extends Component {
     return (
 
 <section className="" id="projects">
-      <div className="test-t">
+                <Whinepad/>
+                <CashClicker/>
                 <Whinepad/>
                 <Whinepad/>
-                <Whinepad/>
-                <Whinepad/>
-      </div>
 </section>
     );
   }

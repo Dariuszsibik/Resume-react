@@ -19,7 +19,7 @@ class Education extends Component {
                   <p className="education-content">{t("education_university_diploma")}</p>
               </div>
               <div className="education-date  resume-date text-md-right">
-                  <span className="text-resume">{t("education_university_date")}</span>
+                  <span>{t("education_university_date")}</span>
               </div>
           </div>
 

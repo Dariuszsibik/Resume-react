@@ -91,7 +91,7 @@
     }
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 791px) {
     .icon-container li {
         display: contents;
     }
@@ -157,13 +157,11 @@
         margin-top: 25px;
         font-size: 1.2rem;
         padding-top: 25px;
-        color: green;
     }
     .education-content {
         font-size: 1.4rem;
         margin: 15px;
     }
-
 }
 
 @media only screen and (min-width: 1500px) {
@@ -187,19 +185,19 @@
     }
     .experience-title {
         font-family: 'Open Sans', serif;
-        font-size: 2.5rem;
-        margin-top: 40px;
-        margin-bottom: 15px;
+        font-size: 2.2rem;
+        margin-top: 25px;
+        margin-bottom: 10px;
     }
     .experience-data {
         font-family: 'Open Sans', serif;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     .experience-projects-title {
         font-family: 'Open Sans', serif;
-        font-size: 2rem;
-        margin-top: 40px;
-        margin-bottom: 15px;
+        font-size: 1.6rem;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
     .experience-items {
         font-family: 'Open Sans', serif;
@@ -210,6 +208,23 @@
     section.resume-section {
         padding-top: 3rem !important;
         padding-bottom: 3rem !important;
+    }
+    .education-title {
+        font-size: 2.7rem;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .education-degree {
+        font-size: 1.8rem;
+    }
+    .education-date {
+        margin-top: 30px;
+        font-size: 1.4rem;
+        padding-top: 30px;
+    }
+    .education-content {
+        font-size: 1.6rem;
+        margin: 20px;
     }
 }
 
@@ -228,12 +243,67 @@
         font-size: 4.3rem;
         margin: 35px;
     }
-    .icon-container .icon-h3-title {
-        font-family: 'Open Sans', serif;
-        font-size: 1.5rem;
-    }
     section.resume-section {
         padding-top: 3rem !important;
         padding-bottom: 3rem !important;
+    }
+    .about-list-item {
+        font-size: 25px;
+        margin: 5px;
+        font-style: italic;
+    }
+    .about-list-item-span {
+        font-weight: 600;
+        color: #00381f;
+        font-size: 32px;
+        margin: 5px;
+    }
+    .about-me {
+        padding-top: 30px;
+        font-size: 2rem;
+    }
+    .about-letter {
+        color: #00381f;
+        font-size: 8.4rem;
+        font-weight: normal;
+    }
+    .education-title {
+        font-size: 3rem;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .education-degree {
+        font-size: 2rem;
+    }
+    .education-date {
+        margin-top: 40px;
+        font-size: 1.5rem;
+        padding-top: 30px;
+    }
+    .education-content {
+        font-size: 1.8rem;
+        margin: 20px;
+    }
+    .experience-title {
+        font-family: 'Open Sans', serif;
+        font-size: 2.3rem;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .experience-data {
+        font-family: 'Open Sans', serif;
+        font-size: 1.8rem;
+    }
+    .experience-projects-title {
+        font-family: 'Open Sans', serif;
+        font-size: 1.8rem;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .experience-items {
+        font-family: 'Open Sans', serif;
+        font-size: 1.4rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
