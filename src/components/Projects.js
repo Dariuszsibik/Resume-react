@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import Whinepad from './projects/Whinepad.js';
 import CashClicker from './projects/CashClicker.js';
+import Mcuprys from './projects/Mcuprys.js';
+import TicTacToe from './projects/TicTacToe.js';
 
 export default class Projects extends Component {
 
@@ -13,8 +15,8 @@ export default class Projects extends Component {
 <section className="" id="projects">
                 <Whinepad/>
                 <CashClicker/>
-                <Whinepad/>
-                <Whinepad/>
+                <TicTacToe/>
+                <Mcuprys/>
 </section>
     );
   }

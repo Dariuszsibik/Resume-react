@@ -17,7 +17,7 @@ export default class About extends Component {
             <div className="about-list-item"> <span className="about-list-item-span">Telefon: </span>883 739 377 </div>
             <div className="about-list-item"> <span className="about-list-item-span">Email: </span><a href="sibikdariusz@gmail.com" className="about-email"> sibikdariusz@gmail.com</a> </div>
         </div>
-        <p className="about-me lead mb-5">Specjalizuję się w projektowaniu i budowaniu złożonych aplikacji internetowych. Jestem wielkim fanem języka JavaScript, szczególnie interesuje mnie React.js, node.js. Aktualnie w swojej pracy wykorzystuje biblioteki jQuery, Underscore, YUI. Jestem osobą dobrze zorganizowaną, zmotywowaną, oraz potrafię pracować pod presja czasu. <br /> Prywatnie lubię podróżować, czytać książki branżowe aby doskonalić swoją wiedzę i spędzać czas ze znajomymi </p>
+        <p className="about-me lead mb-5">Specjalizuję się w projektowaniu i budowaniu złożonych aplikacji internetowych. Jestem wielkim fanem języka JavaScript, szczególnie interesuje mnie React.js, node.js. Aktualnie w swojej pracy wykorzystuje biblioteki jQuery, Underscore, Alloy + YUI. Jestem osobą dobrze zorganizowaną, zmotywowaną, oraz potrafię pracować pod presja czasu. <br /> Prywatnie lubię podróżować, czytać książki branżowe aby doskonalić swoją wiedzę i spędzać czas ze znajomymi </p>
         <div className="about-icons">
         <a href="#" className="about-icon-linedin">
             <i className="fa fa-linkedin"></i>
