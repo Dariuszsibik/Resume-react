@@ -159,6 +159,10 @@ h2 {
     font-size: 1rem;
 }
 
+.card-side.side-front {
+    display: none;
+}
+
 a {
     color: #eed6b5;
 }
