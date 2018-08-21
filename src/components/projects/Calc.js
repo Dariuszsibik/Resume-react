@@ -1,9 +1,9 @@
 
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import Logo from '../../img/mcuprys.jpg'
+import Logo from '../../img/calc.jpg'
 
-export default class Mcuprys extends Component {
+export default class Calc extends Component {
 
   render() {
 
@@ -15,20 +15,20 @@ export default class Mcuprys extends Component {
                       <div className="container-fluid">
                         <img className="card-front-img" src={Logo}/>
                         <div className="side-front-content">
-                          <h3>Przewodnik Po Krakowie</h3>
+                          <h3>Kalkulator</h3>
                         </div>
                       </div>
                     </div>
                     <div className="card-side side-back">
                       <div className="container-fluid">
-                        <h3 className="card-title">Przewodnik po Krakowie</h3>
-                        <p className="card-text">Strona internetowa oparta na systemie CMS Wordpress. </p>
+                        <h3 className="card-title">Kalkulator</h3>
+                        <p className="card-text">Aplikacja desktopowa kalkulator. </p>
                         <ul className="list-group list-group-flush">
-                          <li className="list-group-item">Wordpress</li>
-                          <li className="list-group-item">Javascript</li>
-                          <li className="list-group-item">PHP</li>
+                          <li className="list-group-item">Electron.js</li>
+                          <li className="list-group-item">JavaScript</li>
+                          <li className="list-group-item">Bootstrap</li>
                         </ul>
-                        <a href="#" className="btn btn-primary">Zobacz stronę</a>
+                        <a href="#" className="btn btn-primary">Zobacz kod źródłowy</a>
                       </div>
                     </div>
                   </div>

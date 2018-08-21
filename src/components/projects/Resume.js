@@ -15,20 +15,20 @@ export default class CashClicker extends Component {
                       <div className="container-fluid">
                         <img className="card-front-img" src={Logo}/>
                         <div className="side-front-content">
-                          <h3>Whinepad</h3>
+                          <h3>Strona Dariusz Sibik</h3>
                         </div>
                       </div>
                     </div>
                     <div className="card-side side-back">
                       <div className="container-fluid">
-                        <h3 className="card-title">Whinepad</h3>
-                        <p className="card-text">Aplikacja zbudowana na podstawie książki Stoyan&nbsp;Stefanov&nbsp;-&nbsp;React w działaniu </p>
+                        <h3 className="card-title">Portfolio Dariusz Sibik</h3>
+                        <p className="card-text">Strona internetowa stworzona w React.js.</p>
                         <ul className="list-group list-group-flush">
                           <li className="list-group-item">React</li>
                           <li className="list-group-item">JSX</li>
-                          <li className="list-group-item">Flux</li>
+                          <li className="list-group-item">Bootstrap</li>
                         </ul>
-                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                        <a href="#" className="btn btn-primary">Zobacz kod źródłowy</a>
                       </div>
                     </div>
                   </div>
