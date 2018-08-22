@@ -1,11 +1,14 @@
 
 import React, { Component } from 'react';
+import { translate, Trans } from 'react-i18next';
 import classNames from 'classnames';
 import Logo from '../../img/tic-tac-toe.jpg'
 
-export default class TicTacToe extends Component {
+class TicTacToe extends Component {
 
   render() {
+  const { t, i18n } = this.props;
+  const language = t("language");
 
     return (
       <div className="projects-container">
@@ -15,14 +18,14 @@ export default class TicTacToe extends Component {
             <div className="container-fluid">
               <img className="card-front-img" src={Logo}/>
               <div className="side-front-content">
-                <h3>Tic Tac Toe</h3>
+                <h3>Tic-Tac-Toe</h3>
               </div>
             </div>
           </div>
           <div className="card-side side-back">
             <div className="container-fluid">
-              <h3 className="card-title">Tic Tac Toe</h3>
-              <p className="card-text">Aplikacja do gry w kółko krzyżyk. Użytkownik ma możliwość wyboru rozgrywki z AI. Rozbudowany tutorial ze strony reactjs.org.</p>
+              <h3 className="card-title">Tic-Tac-Toe</h3>
+              <p className="card-text">{t("projects-tic-tac-toe")}</p>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">React</li>
                 <li className="list-group-item">JavaScript</li>
@@ -37,3 +40,4 @@ export default class TicTacToe extends Component {
     );
   }
 }
+export default translate('translations')(TicTacToe);

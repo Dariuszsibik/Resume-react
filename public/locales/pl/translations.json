@@ -2,7 +2,10 @@
     "title": "polski",
     "language": "pl",
     "changeOn": "en",
+
     "about": "O mnie",
+    "about-me": "Specjalizuję się w projektowaniu i budowaniu złożonych aplikacji internetowych. Jestem wielkim fanem języka JavaScript, szczególnie interesuje mnie React.js, node.js. Aktualnie w swojej pracy wykorzystuje biblioteki jQuery, Underscore, Alloy + YUI. Jestem osobą dobrze zorganizowaną, zmotywowaną, oraz potrafię pracować pod presja czasu.",
+    "about-free-time": "Prywatnie lubię podróżować, czytać książki branżowe aby doskonalić swoją wiedzę i spędzać czas ze znajomymi.",
 
 
     "education": "Wykształcenie",
@@ -45,5 +48,14 @@
     "experience_uj_responsibilities7": "Automatyzacja własnej pracy.",
     "experience_uj_date": "07/2017 - Obecnie",
 
-    "projects": "Projekty"
+    "projects": "Projekty",
+    "projects-whinepad-text": "Aplikacja zbudowana na podstawie książki Stoyan Stefanov React w działaniu.",
+    "projects-tic-tac-toe": "Aplikacja do gry w kółko krzyżyk. Użytkownik ma możliwość wyboru rozgrywki z AI. Rozbudowany tutorial ze strony reactjs.org.",
+    "projects-calculator": "Kalkulator",
+    "projects-calculator-text": "Aplikacja desktopowa kalkulator.",
+    "projects-mcuprys-title": "Przewodnik po Krakowie",
+    "projects-mcuprys-text": "Strona internetowa oparta na systemie CMS Wordpress.",
+
+    "view-website": "Zobacz stronę",
+    "view-code": "Zobacz kod"
 }

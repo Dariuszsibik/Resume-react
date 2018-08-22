@@ -2,7 +2,10 @@
     "title": "angielski",
     "language": "en",
     "changeOn": "pl",
+
     "about": "About",
+    "about-me": "I specialize in designing and building complex web applications. I am a big fan of JavaScript, especcialy I'm interested in React.js and node.js. At work I’m using jQuery, Underscore and  Alloy + YUI.I am a well-organized and motivated person.I can work under time pressure.",
+    "about-free-time": "When I have some free time I like to travel, read professional books to improve my knowledge and spend time with friends.",
 
     "education": "Education",
     "education_university": "Pedagogical University in Cracow",
@@ -44,5 +47,14 @@
     "experience_uj_responsibilities7": "Automatization and improving of own work.",
     "experience_uj_date": "07/2017 - Present",
 
-    "projects": "Projects"
+    "projects": "Projects",
+    "projects-whinepad-text": "Application based on Stoyan Stefanov book React: Up & Running Building Web Applications.",
+    "projects-tic-tac-toe": "The Tic-Tac-Toe application - the user has the option to choose a game with Al.",
+    "projects-calculator": "calculator",
+    "projects-calculator-text": "Desktop calculator application.",
+    "projects-mcuprys-title": "Magdalena Cupryś",
+    "projects-mcuprys-text": "Website based on the Wordpress CMS system.",
+
+    "view-website": "Website",
+    "view-code": "Source code"
 }

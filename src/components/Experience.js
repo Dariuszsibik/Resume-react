@@ -8,7 +8,7 @@ class Experience extends Component {
 
     return (
 
-      <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <section className="resume-section p-3 p-lg-5 d-flex flex-column">
       <div className="my-auto">
           <div className="resume-item">
               <div className="resume-content mr-auto text-center">

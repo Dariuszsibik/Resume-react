@@ -12,7 +12,7 @@ export default class Projects extends Component {
   render() {
     return (
 
-<section className="" id="projects">
+<section>
                 <Whinepad/>
                 <Resume/>
                 <TicTacToe/>

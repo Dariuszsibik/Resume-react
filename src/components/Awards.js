@@ -7,7 +7,7 @@ class Awards extends Component {
     const language = t("language");
 
     return (
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column">
         <div className="my-auto">
         <h2 className="mb-5">Awards &amp; Certifications</h2>
         <ul className="fa-ul mb-0">

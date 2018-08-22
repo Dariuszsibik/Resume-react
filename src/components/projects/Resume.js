@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import Logo from '../../img/whinepad.jpg'
+import Logo from '../../img/resume.jpg'
 
 export default class CashClicker extends Component {
 
