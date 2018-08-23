@@ -1,14 +1,12 @@
 
 import React, { Component } from 'react';
-import { translate, Trans } from 'react-i18next';
-import classNames from 'classnames';
+import { translate } from 'react-i18next';
 import Logo from '../../img/calc.jpg'
 
 class Calc extends Component {
 
   render() {
-  const { t, i18n } = this.props;
-  const language = t("language");
+  const { t } = this.props;
 
     return (
               <div className="projects-container">
@@ -16,7 +14,7 @@ class Calc extends Component {
                   <div className="card-body">
                     <div className="card-side side-front">
                       <div className="container-fluid">
-                        <img className="card-front-img" src={Logo}/>
+                        <img className="card-front-img" src={Logo} alt={t("projects-calculator")} />
                         <div className="side-front-content">
                           <h3>{t("projects-calculator")}</h3>
                         </div>
@@ -31,7 +29,7 @@ class Calc extends Component {
                           <li className="list-group-item">JavaScript</li>
                           <li className="list-group-item">Bootstrap</li>
                         </ul>
-                        <a href="#" className="btn btn-primary">{t("view-code")}</a>
+                        <a href="https://github.com/Dariuszsibik/Calc-electron-app" className="btn btn-primary">{t("view-code")}</a>
                       </div>
                     </div>
                   </div>

@@ -54,6 +54,7 @@ h2 {
 .about-title-item {
     color: #9d7750;
     padding-left: 20px;
+    display: inline-block;
 }
 
 .about-icons {

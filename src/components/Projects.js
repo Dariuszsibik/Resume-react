@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react';
-import classNames from 'classnames';
 import Whinepad from './projects/Whinepad.js';
 import Resume from './projects/Resume.js';
 import Mcuprys from './projects/Mcuprys.js';

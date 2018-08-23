@@ -1,11 +1,12 @@
 
 import React, { Component } from 'react';
-import classNames from 'classnames';
 import Logo from '../../img/resume.jpg'
+import { translate } from 'react-i18next';
 
-export default class CashClicker extends Component {
+class Resume extends Component {
 
   render() {
+    const { t } = this.props;
 
     return (
               <div className="projects-container">
@@ -13,22 +14,22 @@ export default class CashClicker extends Component {
                   <div className="card-body">
                     <div className="card-side side-front">
                       <div className="container-fluid">
-                        <img className="card-front-img" src={Logo}/>
+                        <img className="card-front-img" src={Logo} alt={t("projects-dariuszsibik")} />
                         <div className="side-front-content">
-                          <h3>Strona Dariusz Sibik</h3>
+                          <h3>{t("projects-dariuszsibik")}</h3>
                         </div>
                       </div>
                     </div>
                     <div className="card-side side-back">
                       <div className="container-fluid">
-                        <h3 className="card-title">Portfolio Dariusz Sibik</h3>
-                        <p className="card-text">Strona internetowa stworzona w React.js.</p>
+                        <h3 className="card-title">{t("projects-dariuszsibik")}</h3>
+                        <p className="card-text">{t("projects-dariuszsibik-text")}</p>
                         <ul className="list-group list-group-flush">
                           <li className="list-group-item">React</li>
                           <li className="list-group-item">JSX</li>
                           <li className="list-group-item">Bootstrap</li>
                         </ul>
-                        <a href="#" className="btn btn-primary">Zobacz kod źródłowy</a>
+                        <a href="https://github.com/Dariuszsibik/Resume-react" className="btn btn-primary">{t("view-code")}</a>
                       </div>
                     </div>
                   </div>
@@ -37,3 +38,4 @@ export default class CashClicker extends Component {
     );
   }
 }
+export default translate('translations')(Resume);

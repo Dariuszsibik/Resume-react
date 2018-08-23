@@ -1,10 +1,9 @@
-import { translate, Trans } from 'react-i18next';
+import { translate } from 'react-i18next';
 import React, { Component } from 'react';
 
 class Courses extends Component {
   render() {
-    const { t, i18n } = this.props;
-    const language = t("language");
+    const { t } = this.props;
 
     return (
       <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="courses">

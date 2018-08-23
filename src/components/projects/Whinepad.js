@@ -1,14 +1,12 @@
 
 import React, { Component } from 'react';
-import { translate, Trans } from 'react-i18next';
-import classNames from 'classnames';
+import { translate } from 'react-i18next';
 import Logo from '../../img/whinepad.jpg'
 
 class Whinepad extends Component {
 
   render() {
-  const { t, i18n } = this.props;
-  const language = t("language");
+  const { t } = this.props;
 
     return (
       <div className="projects-container">
@@ -16,9 +14,9 @@ class Whinepad extends Component {
         <div className="card-body">
           <div className="card-side side-front">
             <div className="container-fluid">
-              <img className="card-front-img" src={Logo}/>
+              <img className="card-front-img" src={Logo} alt="Whinepad" />
               <div className="side-front-content">
-                <h3>Whinepad</h3>
+                <h3 className="card-title-front">Whinepad</h3>
               </div>
             </div>
           </div>
@@ -31,7 +29,7 @@ class Whinepad extends Component {
                 <li className="list-group-item">JSX</li>
                 <li className="list-group-item">Flux</li>
               </ul>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
+              <a href="https://github.com/Dariuszsibik/whinepad" className="btn btn-primary">{t("view-website")}</a>
             </div>
           </div>
         </div>

@@ -15,13 +15,13 @@ export default class CashClicker extends Component {
                       <div className="container-fluid">
                         <img className="card-front-img" src={Logo}/>
                         <div className="side-front-content">
-                          <h3>Whinepad</h3>
+                          <span>Whinepad</span>
                         </div>
                       </div>
                     </div>
                     <div className="card-side side-back">
                       <div className="container-fluid">
-                        <h3 className="card-title">Whinepad</h3>
+                        <span className="card-title">Whinepad</span>
                         <p className="card-text">Aplikacja zbudowana na podstawie książki Stoyan&nbsp;Stefanov&nbsp;-&nbsp;React w działaniu </p>
                         <ul className="list-group list-group-flush">
                           <li className="list-group-item">React</li>

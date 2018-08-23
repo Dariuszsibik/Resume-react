@@ -7,7 +7,7 @@ export default class SideBar extends Component {
 
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sidebar">
       <a className="navbar-brand js-scroll-trigger" >
-          <span className="d-block d-lg-none">Dariusz Sibik - Resume</span>
+          <span className="d-block d-lg-none">Dariusz Sibik</span>
           <span className="d-none d-lg-block">
         <img className="img-fluid img-profile mx-auto mb-2" src="img/profile.jpg" alt="Zdjęcie Dariusz Sibik" />
       </span>
@@ -29,7 +29,7 @@ export default class SideBar extends Component {
               </div>
               <ul className="list-inline list-social-icons mb-0">
                     <li className="list-block-item">
-                        <a href="#" className="list-facebook">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="list-facebook">
                             <span className="fa-stack fa-lg">
                                 <i className="fa fa-circle fa-stack-2x"></i>
                                 <i className="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -37,7 +37,7 @@ export default class SideBar extends Component {
                         </a>
                     </li>
                     <li className="list-block-item">
-                        <a href="#" className="list-linkedin">
+                        <a href="https://www.linkedin.com/in/dariusz-sibik-a14349104/" target="_blank" rel="noopener noreferrer" className="list-linkedin">
                             <span className="fa-stack fa-lg">
                                 <i className="fa fa-circle fa-stack-2x"></i>
                                 <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -45,7 +45,7 @@ export default class SideBar extends Component {
                         </a>
                     </li>
                     <li className="list-block-item">
-                        <a href="#" className="list-github">
+                        <a href="https://github.com/Dariuszsibik" target="_blank" rel="noopener noreferrer" className="list-github">
                             <span className="fa-stack fa-lg">
                                 <i className="fa fa-circle fa-stack-2x"></i>
                                 <i className="fa fa-github fa-stack-1x fa-inverse"></i>

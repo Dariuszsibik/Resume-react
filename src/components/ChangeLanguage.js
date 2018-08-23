@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { translate, Trans } from 'react-i18next';
+import { translate } from 'react-i18next';
 import classNames from 'classnames';
 
 class ChangeLanguage extends Component {
@@ -18,7 +18,6 @@ class ChangeLanguage extends Component {
  
   render() {
     const { t, i18n } = this.props;
-    const language = t("language");
 
     const changeLanguage = (lng) => {
       i18n.changeLanguage(lng);

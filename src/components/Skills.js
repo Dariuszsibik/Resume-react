@@ -1,11 +1,10 @@
 
 import React, { Component } from 'react';
-import { translate, Trans } from 'react-i18next';
+import { translate } from 'react-i18next';
 
 class Skills extends Component {
   render() {
-    const { t, i18n } = this.props;
-    const language = t("language");
+    const { t } = this.props;
 
     return (
 

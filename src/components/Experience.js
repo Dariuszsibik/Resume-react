@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { translate, Trans } from 'react-i18next';
+import { translate } from 'react-i18next';
 
 class Experience extends Component {
   render() {
-    const { t, i18n } = this.props;
-    const language = t("language");
+    const { t } = this.props;
 
     return (
 
@@ -33,21 +32,21 @@ class Experience extends Component {
                         </ul>
               </div>
           </div>
-                 <div className="experience-projects"> 
-                    <h2 className="experience-projects-title">Przykładowe projekty :</h2>
+                 <div className="experience-projects">
+                    <h2 className="experience-projects-title">{t('experience_sample_projects')}</h2>
                         <ul className="fa-ul mb-0 experience-projects-item">
                             <li className="experience-items">
-                                <a href="https://login.devel.uj.edu.pl/login" target="_blank"><i className="fa-li fa fa-code"></i>Punkt logowania</a></li>
+                                <a href="https://login.devel.uj.edu.pl/login" target="_blank" rel="noopener noreferrer"><i className="fa-li fa fa-code"></i>{t('experience_projects_centrallogin')}</a></li>
                                 <li className="experience-items">
-                                <a href="http://www.wbbib.uj.edu.pl" target="_blank"><i className="fa-li fa fa-code"></i>Wydział Biochemii, Biofizyki i Biotechnologii</a></li>
+                                <a href="http://www.wbbib.uj.edu.pl" target="_blank" rel="noopener noreferrer"><i className="fa-li fa fa-code"></i>{t('experience_projects_wbbib')}</a></li>
                                 <li className="experience-items">
-                                <a href="http://www.wb.uj.edu.pl" target="_blank"><i className="fa-li fa fa-code"></i>Wydział Biologii</a></li>
+                                <a href="http://www.wb.uj.edu.pl" target="_blank" rel="noopener noreferrer"><i className="fa-li fa fa-code"></i>{t('experience_projects_wb')}</a></li>
                                 <li className="experience-items">
-                                <a href="http://www.phils.uj.edu.pl" target="_blank"><i className="fa-li fa fa-code"></i>Wydział Filozoficzny</a></li>
+                                <a href="http://www.phils.uj.edu.pl" target="_blank" rel="noopener noreferrer"><i className="fa-li fa fa-code"></i>{t('experience_projects_fil')}</a></li>
                                 <li className="experience-items">
-                                <a href="http://www.chemia.uj.edu.pl" target="_blank"><i className="fa-li fa fa-code"></i>Wydział Chemii</a></li>
+                                <a href="http://www.chemia.uj.edu.pl" target="_blank" rel="noopener noreferrer"><i className="fa-li fa fa-code"></i>{t('experience_projects_chemii')}</a></li>
                                 <li className="experience-items">
-                                <a href="http://www.ibhp.uj.edu.pl" target="_blank"><i className="fa-li fa fa-code"></i>Inspektorat BHP</a></li>
+                                <a href="http://www.ibhp.uj.edu.pl" target="_blank" rel="noopener noreferrer"><i className="fa-li fa fa-code"></i>{t('experience_projects_bhp')}</a></li>
                         </ul>
                 </div>
 

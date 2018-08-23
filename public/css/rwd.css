@@ -5,11 +5,11 @@
         position: relative;
         z-index: 1;
         margin: 32px auto;
-        max-width: 520px;
+        max-width: 500px;
         -webkit-perspective: 1000px;
         perspective: 1000px;
         float: left;
-        height: 350px;
+        height: 250px;
     }
     .card-front-img {
         width: 100%;
@@ -49,6 +49,9 @@
         backface-visibility: hidden;
         box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 2px 15px rgba(0, 0, 0, 0.07);
     }
+    .card-side .container-fluid {
+        height: 100%;
+    }
     /*- Front side -*/
     .side-front [class^=col-xs]:first-of-type {
         padding-left: 0;
@@ -57,14 +60,32 @@
         padding-top: 32px;
         padding-right: 32px;
         padding-bottom: 32px;
+        color: white;
+        background: #9d7750;
+        text-align: center;
+        font-size: 50px;
+        border: 1px solid #00381f;
     }
     /*- Back side -*/
     .side-back {
         z-index: 2;
-        padding: 32px;
+        padding: 16px;
         text-align: center;
         -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
+    }
+    .card-title {
+        margin-bottom: 0px !important;
+    }
+    .card-text {
+        font-size: 14px;
+    }
+    .list-group {
+        margin-bottom: 10px;
+    }
+    .list-group-item {
+        font-size: 12px;
+        padding: 5px 5px;
     }
     /*- Form -*/
     .card-form {
@@ -275,6 +296,15 @@
         font-size: 1.4rem;
         margin: 15px;
     }
+    .card-container {
+        width: 600px;
+        height: 300px;
+        max-width: 600px;
+    }
+    .card-body {
+        width: 600px;
+        height: 300px;
+    }
 }
 
 @media only screen and (min-width: 1500px) {
@@ -338,6 +368,15 @@
     .education-content {
         font-size: 1.6rem;
         margin: 20px;
+    }
+    .card-container {
+        width: 800px;
+        height: 400px;
+        max-width: 800px;
+    }
+    .card-body {
+        width: 800px;
+        height: 400px;
     }
 }
 

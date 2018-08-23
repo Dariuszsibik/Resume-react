@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import { translate, Trans } from 'react-i18next';
+import { translate } from 'react-i18next';
 import ChangeLanguage from './ChangeLanguage.js';
 
     class Nav extends Component {
@@ -21,8 +21,7 @@ import ChangeLanguage from './ChangeLanguage.js';
     }
 
   render() {
-    const { t, i18n } = this.props;
-    const language = t("language");
+    const { t } = this.props;
 
     const toggleclassName = classNames({
         'show': this.state.show === true,

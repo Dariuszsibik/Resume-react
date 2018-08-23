@@ -1,14 +1,12 @@
 
 import React, { Component } from 'react';
-import classNames from 'classnames';
 import Logo from '../../img/mcuprys.jpg'
-import { translate, Trans } from 'react-i18next';
+import { translate } from 'react-i18next';
 
 class Mcuprys extends Component {
 
   render() {
-    const { t, i18n } = this.props;
-    const language = t("language");
+    const { t } = this.props;
 
     return (
               <div className="projects-container">
@@ -16,7 +14,7 @@ class Mcuprys extends Component {
                   <div className="card-body">
                     <div className="card-side side-front">
                       <div className="container-fluid">
-                        <img className="card-front-img" src={Logo}/>
+                        <img className="card-front-img" src={Logo} alt={t("projects-mcuprys-title")} />
                         <div className="side-front-content">
                           <h3>{t("projects-mcuprys-title")}</h3>
                         </div>
