@@ -130,6 +130,13 @@
     .projects-container {
         display: flex;
     }
+    .card-title-front {
+        text-align: center;
+        font-family: 'Open Sans', serif;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: #00381f;
+    }
 }
 
 @media (min-width: 992px) {
@@ -367,6 +374,24 @@
     .card-body {
         width: 800px;
         height: 400px;
+    }
+    .card-text {
+        padding: 30px;
+        font-size: 1.6rem;
+    }
+    .list-group-item {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+    .btn {
+        font-size: 1.8rem;
+        padding-top: 15px;
+    }
+    .card-title-front {
+        font-size: 2rem;
+    }
+    .projects-container {
+        margin-top: 60px;
     }
 }
 
