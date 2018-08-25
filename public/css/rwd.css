@@ -201,19 +201,6 @@
     .languageMax {
         display: none !important;
     }
-    #sidebar {
-        display: none;
-    }
-    #onToggle.show {
-        animation: test 0.35s linear;
-        height: 250px;
-        display: block;
-    }
-    #onToggle.hide {
-        animation: test2 0.35s linear;
-        height: 0px;
-        display: none;
-    }
 }
 
 @media (min-width: 768px) {
@@ -235,6 +222,9 @@
 }
 
 @media only screen and (min-width: 1200px) {
+    .language-text {
+        display: inline;
+    }
     .courses-title {
         font-family: 'Open Sans', serif;
         font-size: 3rem;

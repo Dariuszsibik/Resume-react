@@ -23,12 +23,6 @@ import ChangeLanguage from './ChangeLanguage.js';
   render() {
     const { t } = this.props;
 
-    const toggleclassName = classNames({
-        'show': this.state.show === true,
-    })
-    const hideclassName = classNames({
-        'hide': this.state.show === false,
-    })
     const aboutClassName = classNames({
         'active': this.props.navActive === 'about',
     })
@@ -50,11 +44,11 @@ import ChangeLanguage from './ChangeLanguage.js';
 
     return (
                 <nav className="nav nav-pills nav-fill navbar-expand-lg navbar-dark">
-                    <button className="navbar-toggler collapsed mr-auto" type="button" onClick={this.onToggleClick.bind(this)} >
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-id" aria-controls="nav-id" aria-expanded="false" aria-label="Toggle navigation" >
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <ChangeLanguage class={'languageMin'}/>
-                        <div id="onToggle" className={`navbar-collapse ${toggleclassName} ${hideclassName}`} >
+                        <div id="nav-id" className="collapse navbar-collapse" >
                             <li className="nav-item">
                                 <a className={`nav-link ${aboutClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('about') } href="#about">{t("about")}</a>
                             </li>

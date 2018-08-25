@@ -6,13 +6,13 @@ export default class SideBar extends Component {
     return (
 
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sidebar">
-      <a className="navbar-brand js-scroll-trigger" >
+      <a className="navbar-brand" >
           <span className="d-block d-lg-none">Dariusz Sibik</span>
           <span className="d-none d-lg-block">
         <img className="img-fluid img-profile mx-auto mb-2" src="img/profile.jpg" alt="Zdjęcie Dariusz Sibik" />
       </span>
       </a>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <div className="navbar-collapse">
           <ul className="navbar-nav">
             <div className="sidebar-contact">
                 <h4 className="dariusz-sibik">Dariusz Sibik</h4>
