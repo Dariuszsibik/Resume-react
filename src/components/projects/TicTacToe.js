@@ -11,18 +11,15 @@ class TicTacToe extends Component {
     return (
       <div className="projects-container">
       <div className="card-container">
+      <h3 className="card-title-front">{t("projects-tic-tac-toe-title")}</h3>
         <div className="card-body">
           <div className="card-side side-front">
             <div className="container-fluid">
               <img className="card-front-img" src={Logo} alt={t("projects-tic-tac-toe-title")} />
-              <div className="side-front-content">
-                <h3>{t("projects-tic-tac-toe-title")}</h3>
-              </div>
             </div>
           </div>
           <div className="card-side side-back">
             <div className="container-fluid">
-              <h3 className="card-title">{t("projects-tic-tac-toe-title")}</h3>
               <p className="card-text">{t("projects-tic-tac-toe")}</p>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">React</li>

@@ -21,7 +21,6 @@ export default class CashClicker extends Component {
                     </div>
                     <div className="card-side side-back">
                       <div className="container-fluid">
-                        <span className="card-title">Whinepad</span>
                         <p className="card-text">Aplikacja zbudowana na podstawie książki Stoyan&nbsp;Stefanov&nbsp;-&nbsp;React w działaniu </p>
                         <ul className="list-group list-group-flush">
                           <li className="list-group-item">React</li>
