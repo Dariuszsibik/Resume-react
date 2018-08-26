@@ -24,13 +24,22 @@ h2 {
     font-size: 3.5rem;
 }
 
+#sidebar {
+    display: none;
+}
+
+.languageMax {
+    display: none !important;
+}
+
 .about-title {
     text-align: center;
     font-family: serif;
-    font-weight: 700;
+    font-weight: 100;
     text-transform: capitalize;
     color: #343a40;
-    padding-top: 40px;
+    padding-top: 0px;
+    font-size: 4rem;
 }
 
 .about-me {
@@ -127,6 +136,14 @@ h2 {
     font-size: 2rem;
 }
 
+.icon-container li {
+    display: contents;
+}
+
+.container-text {
+    text-align: center;
+}
+
 .education-title {
     font-size: 2.4rem;
     margin-top: 25px;
@@ -163,6 +180,14 @@ h2 {
 .card-side.side-front {
     display: none;
 }
+
+.card-title-front {
+    text-align: center;
+}
+
+.side-back {
+    text-align: center;
+}   
 
 .projects-container {
     margin: 25px;
@@ -359,6 +384,7 @@ section.resume-section .resume-item .resume-date {
 
 .experience-title {
     font-size: 2.5rem;
+    line-height: 35px;
 }
 
 .experience-projects {
@@ -401,6 +427,7 @@ section.resume-section .resume-item .resume-date {
     -moz-transition: background 0.2s;
     transition: background 0.2s;
     cursor: pointer;
+    margin: 20px;
 }
 
 .icon-container li {

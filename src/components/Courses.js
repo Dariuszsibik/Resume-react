@@ -6,7 +6,7 @@ class Courses extends Component {
     const { t } = this.props;
 
     return (
-      <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="courses">
+      <section className="resume-section p-3 p-lg-5 d-flex flex-column">
         <div className="my-auto">
         <h2 className="mb-5 courses-title">{t("courses-certificates")}</h2>
         <ul className="fa-ul mb-0">

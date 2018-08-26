@@ -4,21 +4,6 @@ import { translate } from 'react-i18next';
 import ChangeLanguage from './ChangeLanguage.js';
 
     class Nav extends Component {
-    constructor(){
-        super();
-        this.state = {
-        show: false,
-     };
-    }
-    
-
-    onToggleClick(event) {
-        event.preventDefault();
-
-        this.setState({
-            show: !this.state.show
-        });
-    }
 
   render() {
     const { t } = this.props;
@@ -44,7 +29,7 @@ import ChangeLanguage from './ChangeLanguage.js';
 
     return (
                 <nav className="nav nav-pills nav-fill navbar-expand-lg navbar-dark">
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-id" aria-controls="nav-id" aria-expanded="false" aria-label="Toggle navigation" >
+                    <button id="navbar-toggler-content" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-id" aria-controls="nav-id" aria-expanded="false" aria-label="Toggle navigation" >
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <ChangeLanguage class={'languageMin'}/>

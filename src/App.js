@@ -22,6 +22,10 @@ class App extends Component {
       this.setState({
         navActive: props
       })
+      console.log(window.screen.width);
+      if (window.screen.width < 992) { 
+        document.getElementById('navbar-toggler-content').click();
+      }
     }
 
   render() {

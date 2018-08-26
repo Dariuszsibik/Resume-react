@@ -8,7 +8,7 @@ class Skills extends Component {
 
     return (
 
-        <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <section className="resume-section p-3 p-lg-5 d-flex flex-column">
 
         <ul className="icon-container">
         <div className="container-text mb-3 skills-text">{t("skills_use")}:</div>

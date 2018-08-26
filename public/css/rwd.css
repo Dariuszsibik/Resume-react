@@ -1,3 +1,9 @@
+@media only screen and (min-width: 380px) {
+    .about-title {
+        font-size: 6rem
+    }
+}
+
 @media only screen and (min-width: 576px) {
     .card-container {
         width: 100%;
@@ -70,7 +76,6 @@
     .side-back {
         z-index: 2;
         padding: 16px;
-        text-align: center;
         -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
     }
@@ -137,6 +142,33 @@
         text-transform: capitalize;
         color: #00381f;
     }
+    .about-title {
+        font-weight: 700; 
+    }
+}
+
+@media (min-width: 768px) {
+    section.resume-section {
+        max-height: 470px;
+    }
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem;
+    }
+    .icon-container li {
+        display: list-item;
+    }
+    .container-text {
+        text-align: center;
+    }
+    .icon-container .icon-h3-title {
+        font-size: 0.6rem;
+    }
+    .icon-container li>span {
+        margin: 0px;
+    }
+    .experience-title {
+        line-height: 30px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -199,33 +231,9 @@
     .about-icons {
         display: none;
     }
-}
-
-@media (max-width: 991px) {
-    #sidebar {
-        display: none;
-    }
-    .languageMax {
-        display: none !important;
-    }
-}
-
-@media (min-width: 768px) {
-    section.resume-section {
-        max-height: 470px;
-    }
-    section.resume-section .resume-item .resume-date {
-        min-width: 18rem;
-    }
-}
-
-@media only screen and (max-width: 791px) {
-    .icon-container li {
-        display: contents;
-    }
-    .container-text {
-        text-align: center;
-    }
+    .about-title{
+        padding-top: 40px; 
+    }    
 }
 
 @media only screen and (min-width: 1200px) {
@@ -255,6 +263,7 @@
         font-size: 1.5rem;
         margin-top: 10px;
         margin-bottom: 10px;
+        line-height: 25px;
     }
     .experience-data {
         font-family: 'Open Sans', serif;
@@ -301,6 +310,24 @@
     .card-body {
         width: 600px;
         height: 300px;
+    }
+    .card-text {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+    .list-group-item {
+        padding: 5px;
+        font-size: 1.1rem;
+    }
+    .btn {
+        font-size: 1.3rem;
+        padding-top: 10px;
+    }
+    .card-title-front {
+        font-size: 2.4rem;
+    }
+    .projects-container {
+        margin-top: 40px;
     }
 }
 
