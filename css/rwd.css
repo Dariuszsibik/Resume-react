@@ -1,3 +1,9 @@
+@media only screen and (min-width: 380px) {
+    .about-title {
+        font-size: 6rem
+    }
+}
+
 @media only screen and (min-width: 576px) {
     .card-container {
         width: 100%;
@@ -5,11 +11,11 @@
         position: relative;
         z-index: 1;
         margin: 32px auto;
-        max-width: 520px;
+        max-width: 500px;
         -webkit-perspective: 1000px;
         perspective: 1000px;
         float: left;
-        height: 350px;
+        height: 250px;
     }
     .card-front-img {
         width: 100%;
@@ -49,6 +55,9 @@
         backface-visibility: hidden;
         box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 2px 15px rgba(0, 0, 0, 0.07);
     }
+    .card-side .container-fluid {
+        height: 100%;
+    }
     /*- Front side -*/
     .side-front [class^=col-xs]:first-of-type {
         padding-left: 0;
@@ -57,14 +66,31 @@
         padding-top: 32px;
         padding-right: 32px;
         padding-bottom: 32px;
+        color: white;
+        background: #9d7750;
+        text-align: center;
+        font-size: 50px;
+        border: 1px solid #00381f;
     }
     /*- Back side -*/
     .side-back {
         z-index: 2;
-        padding: 32px;
-        text-align: center;
+        padding: 16px;
         -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
+    }
+    .card-title {
+        margin-bottom: 0px !important;
+    }
+    .card-text {
+        font-size: 14px;
+    }
+    .list-group {
+        margin-bottom: 10px;
+    }
+    .list-group-item {
+        font-size: 12px;
+        padding: 5px 5px;
     }
     /*- Form -*/
     .card-form {
@@ -108,6 +134,40 @@
     }
     .projects-container {
         display: flex;
+    }
+    .card-title-front {
+        text-align: center;
+        font-family: 'Open Sans', serif;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: #00381f;
+    }
+    .about-title {
+        font-weight: 700; 
+    }
+}
+
+@media (min-width: 768px) {
+    section.resume-section {
+        max-height: 470px;
+    }
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem;
+    }
+    .icon-container li {
+        display: list-item;
+    }
+    .container-text {
+        text-align: center;
+    }
+    .icon-container .icon-h3-title {
+        font-size: 0.6rem;
+    }
+    .icon-container li>span {
+        margin: 0px;
+    }
+    .experience-title {
+        line-height: 30px;
     }
 }
 
@@ -171,49 +231,15 @@
     .about-icons {
         display: none;
     }
-}
-
-@media (max-width: 991px) {
-    #sidebar {
-        display: none;
-    }
-    .languageMax {
-        display: none !important;
-    }
-    #sidebar {
-        display: none;
-    }
-    #onToggle.show {
-        animation: test 0.35s linear;
-        height: 250px;
-        display: block;
-    }
-    #onToggle.hide {
-        animation: test2 0.35s linear;
-        height: 0px;
-        display: none;
-    }
-}
-
-@media (min-width: 768px) {
-    section.resume-section {
-        max-height: 470px;
-    }
-    section.resume-section .resume-item .resume-date {
-        min-width: 18rem;
-    }
-}
-
-@media only screen and (max-width: 791px) {
-    .icon-container li {
-        display: contents;
-    }
-    .container-text {
-        text-align: center;
-    }
+    .about-title{
+        padding-top: 40px; 
+    }    
 }
 
 @media only screen and (min-width: 1200px) {
+    .language-text {
+        display: inline;
+    }
     .courses-title {
         font-family: 'Open Sans', serif;
         font-size: 3rem;
@@ -237,6 +263,7 @@
         font-size: 1.5rem;
         margin-top: 10px;
         margin-bottom: 10px;
+        line-height: 25px;
     }
     .experience-data {
         font-family: 'Open Sans', serif;
@@ -274,6 +301,33 @@
     .education-content {
         font-size: 1.4rem;
         margin: 15px;
+    }
+    .card-container {
+        width: 600px;
+        height: 300px;
+        max-width: 600px;
+    }
+    .card-body {
+        width: 600px;
+        height: 300px;
+    }
+    .card-text {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+    .list-group-item {
+        padding: 5px;
+        font-size: 1.1rem;
+    }
+    .btn {
+        font-size: 1.3rem;
+        padding-top: 10px;
+    }
+    .card-title-front {
+        font-size: 2.4rem;
+    }
+    .projects-container {
+        margin-top: 40px;
     }
 }
 
@@ -338,6 +392,33 @@
     .education-content {
         font-size: 1.6rem;
         margin: 20px;
+    }
+    .card-container {
+        width: 800px;
+        height: 400px;
+        max-width: 800px;
+    }
+    .card-body {
+        width: 800px;
+        height: 400px;
+    }
+    .card-text {
+        padding: 30px;
+        font-size: 1.6rem;
+    }
+    .list-group-item {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+    .btn {
+        font-size: 1.8rem;
+        padding-top: 15px;
+    }
+    .card-title-front {
+        font-size: 2rem;
+    }
+    .projects-container {
+        margin-top: 60px;
     }
 }
 

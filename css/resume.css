@@ -24,13 +24,22 @@ h2 {
     font-size: 3.5rem;
 }
 
+#sidebar {
+    display: none;
+}
+
+.languageMax {
+    display: none !important;
+}
+
 .about-title {
     text-align: center;
     font-family: serif;
-    font-weight: 700;
+    font-weight: 100;
     text-transform: capitalize;
     color: #343a40;
-    padding-top: 40px;
+    padding-top: 0px;
+    font-size: 4rem;
 }
 
 .about-me {
@@ -54,6 +63,7 @@ h2 {
 .about-title-item {
     color: #9d7750;
     padding-left: 20px;
+    display: inline-block;
 }
 
 .about-icons {
@@ -126,6 +136,14 @@ h2 {
     font-size: 2rem;
 }
 
+.icon-container li {
+    display: contents;
+}
+
+.container-text {
+    text-align: center;
+}
+
 .education-title {
     font-size: 2.4rem;
     margin-top: 25px;
@@ -161,6 +179,27 @@ h2 {
 
 .card-side.side-front {
     display: none;
+}
+
+.card-title-front {
+    text-align: center;
+}
+
+.side-back {
+    text-align: center;
+}   
+
+.projects-container {
+    margin: 25px;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.resume-content {
+    line-height: 25px;
 }
 
 a {
@@ -224,6 +263,7 @@ a {
     font-size: 15px;
     color: white;
     text-transform: uppercase;
+    display: none;
 }
 
 .buttonEn {
@@ -344,6 +384,7 @@ section.resume-section .resume-item .resume-date {
 
 .experience-title {
     font-size: 2.5rem;
+    line-height: 35px;
 }
 
 .experience-projects {
@@ -386,6 +427,7 @@ section.resume-section .resume-item .resume-date {
     -moz-transition: background 0.2s;
     transition: background 0.2s;
     cursor: pointer;
+    margin: 20px;
 }
 
 .icon-container li {
@@ -462,79 +504,6 @@ section.resume-section .resume-item .resume-date {
     font-family: sans-serif;
     text-decoration: underline;
 }
-
-@keyframes test {
-    0% {
-        height: 0px;
-        opacity: 0;
-        -webkit-transform: translateY(-100%);
-    }
-    50% {
-        height: 125px;
-        opacity: 0;
-        -webkit-transform: translateY(0%);
-    }
-    100% {
-        height: 250px;
-        opacity: 1;
-        -webkit-transform: translateY(0);
-    }
-}
-
-@keyframes test2 {
-    0% {
-        height: 250px;
-        opacity: 1;
-        -webkit-transform: translateY(0%);
-    }
-    50% {
-        height: 125px;
-        opacity: 1;
-        -webkit-transform: translateY(0%);
-    }
-    100% {
-        height: 0px;
-        opacity: 0;
-        -webkit-transform: translateY(-100%);
-    }
-}
-
-
-/*
-  .navbar-collapse.hide{
-    height:0px;
-    animation: test2 3s;
-
-  }
-  .navbar-collapse.show {
-    height: auto;
-    animation: test 3s;
-  }
-
-  @keyframes test {
-    from {height: 0px}
-    to {height: 250px;}
-}
-@keyframes test2 {
-    from {height: 250px}
-    to {height: 0px;}
-}
-
-  .navbar-collapse.show {
-      display: block;
-      -webkit-animation: slide-down .3s ease-out;
-      -moz-animation: slide-down .3s ease-out;
-  }
-
-  @-webkit-keyframes slide-down {
-    0% { opacity: 0; -webkit-transform: translateY(-100%); height: 0; }   
-  100% { opacity: 1; -webkit-transform: translateY(0); height: auto;}
-}
-@-moz-keyframes slide-down {
-    0% { opacity: 0; -moz-transform: translateY(-100%); }   
-  100% { opacity: 1; -moz-transform: translateY(0); }
-}
-*/
 
 @keyframes dariusz-sibik {
     0% {
