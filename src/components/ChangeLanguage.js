@@ -24,7 +24,7 @@ class ChangeLanguage extends Component {
     }
 
     const langClass = classNames(t('language'), "flag");
-    const srcFlag = "img/" + t('changeOn') + "-flag.png";
+    const srcFlag = "theme/img/" + t('changeOn') + "-flag.png";
     const languageMin = this.props.class? this.props.class : 'languageMax';
 
     return (

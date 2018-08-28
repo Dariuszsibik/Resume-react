@@ -9,7 +9,7 @@ export default class SideBar extends Component {
       <a className="navbar-brand" >
           <span className="d-block d-lg-none">Dariusz Sibik</span>
           <span className="d-none d-lg-block">
-        <img className="img-fluid img-profile mx-auto mb-2" src="img/profile.jpg" alt="Zdjęcie Dariusz Sibik" />
+        <img className="img-fluid img-profile mx-auto mb-2" src="theme/img/profile.jpg" alt="Zdjęcie Dariusz Sibik" />
       </span>
       </a>
       <div className="navbar-collapse">

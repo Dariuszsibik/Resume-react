@@ -28,7 +28,7 @@ import ChangeLanguage from './ChangeLanguage.js';
     })
 
     return (
-                <nav className="nav nav-pills nav-fill navbar-expand-lg navbar-dark">
+                <nav className="nav nav-pills nav-fill navbar-expand-xl navbar-dark">
                     <button id="navbar-toggler-content" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-id" aria-controls="nav-id" aria-expanded="false" aria-label="Toggle navigation" >
                         <span className="navbar-toggler-icon"></span>
                     </button>

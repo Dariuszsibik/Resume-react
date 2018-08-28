@@ -26,7 +26,7 @@ class Mcuprys extends Component {
                           <li className="list-group-item">Javascript</li>
                           <li className="list-group-item">PHP</li>
                         </ul>
-                        <a href="www.magdalenacprys.pl" className="btn btn-primary">{t("view-website")}</a>
+                        <a href="http://magdalenacuprys.pl/" className="btn btn-primary">{t("view-website")}</a>
                       </div>
                     </div>
                   </div>

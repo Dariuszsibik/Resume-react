@@ -143,7 +143,7 @@
         color: #00381f;
     }
     .about-title {
-        font-weight: 700; 
+        font-weight: 700;
     }
 }
 
@@ -171,7 +171,7 @@
     }
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
     body {
         padding-top: 0;
         padding-left: 17rem;
@@ -231,12 +231,9 @@
     .about-icons {
         display: none;
     }
-    .about-title{
-        padding-top: 40px; 
-    }    
-}
-
-@media only screen and (min-width: 1200px) {
+    .about-title {
+        padding-top: 40px;
+    }
     .language-text {
         display: inline;
     }
@@ -425,11 +422,11 @@
 @media only screen and (min-width: 1800px) {
     .courses-title {
         font-family: 'Open Sans', serif;
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .courses-name {
         font-family: 'Open Sans', serif;
-        font-size: 2.4rem;
+        font-size: 2.0rem;
         margin: 15px;
     }
     .skills-text {
@@ -464,7 +461,7 @@
     .education-title {
         font-size: 3rem;
         margin-top: 40px;
-        margin-bottom: 10px;
+        margin-bottom: 3rem;
     }
     .education-degree {
         font-size: 2rem;
@@ -482,7 +479,7 @@
         font-family: 'Open Sans', serif;
         font-size: 2.3rem;
         margin-top: 30px;
-        margin-bottom: 10px;
+        margin-bottom: 3rem;
     }
     .experience-data {
         font-family: 'Open Sans', serif;
@@ -497,7 +494,7 @@
     .experience-items {
         font-family: 'Open Sans', serif;
         font-size: 1.4rem;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 }
