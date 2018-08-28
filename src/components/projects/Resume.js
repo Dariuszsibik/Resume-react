@@ -26,7 +26,7 @@ class Resume extends Component {
                           <li className="list-group-item">JSX</li>
                           <li className="list-group-item">Bootstrap</li>
                         </ul>
-                        <a href="https://github.com/Dariuszsibik/Resume-react" className="btn btn-primary">{t("view-code")}</a>
+                        <a href="https://github.com/Dariuszsibik/Resume-react" target="_blank" rel="noopener noreferrer" className="btn btn-primary">{t("view-code")}</a>
                       </div>
                     </div>
                   </div>

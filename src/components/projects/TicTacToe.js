@@ -26,7 +26,7 @@ class TicTacToe extends Component {
                 <li className="list-group-item">JavaScript</li>
                 <li className="list-group-item">JSX</li>
               </ul>
-              <a href="https://dariuszsibik.github.io/react-tic-tac-toe/" className="btn btn-primary">{t("view-website")}</a>
+              <a href="https://dariuszsibik.github.io/react-tic-tac-toe/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">{t("view-website")}</a>
             </div>
           </div>
         </div>

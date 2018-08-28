@@ -26,7 +26,7 @@ class Calc extends Component {
                           <li className="list-group-item">JavaScript</li>
                           <li className="list-group-item">Bootstrap</li>
                         </ul>
-                        <a href="https://github.com/Dariuszsibik/Calc-electron-app" className="btn btn-primary">{t("view-code")}</a>
+                        <a href="https://github.com/Dariuszsibik/Calc-electron-app" target="_blank" rel="noopener noreferrer" className="btn btn-primary">{t("view-code")}</a>
                       </div>
                     </div>
                   </div>

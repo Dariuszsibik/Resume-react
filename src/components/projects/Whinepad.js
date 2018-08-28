@@ -26,7 +26,7 @@ class Whinepad extends Component {
                 <li className="list-group-item">JSX</li>
                 <li className="list-group-item">Flux</li>
               </ul>
-              <a href="https://github.com/Dariuszsibik/whinepad" className="btn btn-primary">{t("view-website")}</a>
+              <a href="https://dariuszsibik.github.io/whinepad/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">{t("view-website")}</a>
             </div>
           </div>
         </div>
