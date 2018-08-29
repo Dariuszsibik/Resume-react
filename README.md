@@ -1,4 +1,4 @@
-## page published at: 
+## Page published at: 
 [dariuszsibik.github.io](https://dariuszsibik.github.io).
 
 
