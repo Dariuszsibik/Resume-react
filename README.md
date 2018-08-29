@@ -17,7 +17,7 @@
     
 ## Download
 You can download the code and you should download dependencies before running
-### npm i
+### `npm i`
 
 ## Available Scripts
 In the project directory, you can run:
