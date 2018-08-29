@@ -1,4 +1,5 @@
-## page published at: [dariuszsibik.github.io](https://dariuszsibik.github.io).
+## page published at: 
+[dariuszsibik.github.io](https://dariuszsibik.github.io).
 
 ## Used technologies:
 ### - react: 16.4.1
