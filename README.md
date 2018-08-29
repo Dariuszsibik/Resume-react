@@ -3,7 +3,7 @@
 
 
 ## Used technologies:
-#### * react: 16.4.1
+#### - react: 16.4.1
 #### - JSX
 #### - JavaScript
 #### - Bootstrap 
