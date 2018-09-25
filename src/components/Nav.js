@@ -29,10 +29,10 @@ import {Link} from 'react-router-dom';
                                 <Link to="/skills" className="nav-link" id="nav-item-link">{t("skills")}</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/courses" className="nav-link" id="nav-item-link">{t("courses")}</Link>
+                                <Link to="/projects" className="nav-link" id="nav-item-link">{t("projects")}</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/awards" className="nav-link" id="nav-item-link">{t("awards")}</Link>
+                                <Link to="/courses" className="nav-link" id="nav-item-link">{t("courses")}</Link>
                             </li>
                             </div>
                             <ChangeLanguage/>

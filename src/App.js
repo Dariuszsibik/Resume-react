@@ -32,6 +32,7 @@ class App extends Component {
                           <Route path="/skills" component={Skills} />
                           <Route path="/projects" component={Projects} />
                           <Route path="/courses" component={Courses} />
+                          <Route component={PageNotFound}/>
                     </div>
             </div>
         </Router>
