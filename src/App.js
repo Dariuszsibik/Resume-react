@@ -12,7 +12,6 @@ import Education from './components/Education.js';
 import Projects from './components/Projects.js';
 import Skills from './components/Skills.js';
 import Experience from './components/Experience';
-import PageNotFound from './components/PageNotFound.js';
 
 
 class App extends Component {
@@ -32,7 +31,6 @@ class App extends Component {
                           <Route path="/skills" component={Skills} />
                           <Route path="/projects" component={Projects} />
                           <Route path="/courses" component={Courses} />
-                          <Route component={PageNotFound}/>
                     </div>
             </div>
         </Router>

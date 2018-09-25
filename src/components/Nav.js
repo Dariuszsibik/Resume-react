@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { translate } from 'react-i18next';
 import ChangeLanguage from './ChangeLanguage.js';
 
-import {Link} from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 
     class Nav extends Component {
 
@@ -17,22 +17,22 @@ import {Link} from 'react-router-dom';
                     <ChangeLanguage class={'languageMin'}/>
                         <div id="nav-id" className="collapse navbar-collapse" >
                             <li className="nav-item">
-                                <Link to="/about" className="nav-link" id="nav-item-link">{t("about")}</Link>
+                                <NavLink   to="/about" activeClassName="active"  className="nav-link" id="nav-item-link">{t("about")}</NavLink >
                             </li>
                             <li className="nav-item">
-                                <Link to="/experience" className="nav-link" id="nav-item-link">{t("experience")}</Link>
+                                <NavLink   to="/experience" className="nav-link" id="nav-item-link">{t("experience")}</NavLink >
                             </li>
                             <li className="nav-item">
-                                <Link to="/education" className="nav-link" id="nav-item-link">{t("education")}</Link>
+                                <NavLink   to="/education" className="nav-link" id="nav-item-link">{t("education")}</NavLink >
                             </li>
                             <li className="nav-item">
-                                <Link to="/skills" className="nav-link" id="nav-item-link">{t("skills")}</Link>
+                                <NavLink   to="/skills" className="nav-link" id="nav-item-link">{t("skills")}</NavLink >
                             </li>
                             <li className="nav-item">
-                                <Link to="/projects" className="nav-link" id="nav-item-link">{t("projects")}</Link>
+                                <NavLink   to="/projects" className="nav-link" id="nav-item-link">{t("projects")}</NavLink >
                             </li>
                             <li className="nav-item">
-                                <Link to="/courses" className="nav-link" id="nav-item-link">{t("courses")}</Link>
+                                <NavLink   to="/courses" className="nav-link" id="nav-item-link">{t("courses")}</NavLink >
                             </li>
                             </div>
                             <ChangeLanguage/>
