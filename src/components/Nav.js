@@ -1,31 +1,13 @@
 import React, { Component } from 'react';
-import classNames from 'classnames';
 import { translate } from 'react-i18next';
 import ChangeLanguage from './ChangeLanguage.js';
+
+import {Link} from 'react-router-dom';
 
     class Nav extends Component {
 
   render() {
     const { t } = this.props;
-
-    const aboutClassName = classNames({
-        'active': this.props.navActive === 'about',
-    })
-    const educationClassName = classNames({
-        'active': this.props.navActive === 'education',
-    })
-    const experienceClassName = classNames({
-        'active': this.props.navActive === 'experience',
-    })
-    const skillsClassName = classNames({
-        'active': this.props.navActive === 'skills',
-    })
-    const awardsClassName = classNames({
-        'active': this.props.navActive === 'courses',
-    })
-    const ProjectsClassName = classNames({
-        'active': this.props.navActive === 'projects',
-    })
 
     return (
                 <nav className="nav nav-pills nav-fill navbar-expand-xl navbar-dark">
@@ -35,22 +17,22 @@ import ChangeLanguage from './ChangeLanguage.js';
                     <ChangeLanguage class={'languageMin'}/>
                         <div id="nav-id" className="collapse navbar-collapse" >
                             <li className="nav-item">
-                                <a className={`nav-link ${aboutClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('about') } href="#about">{t("about")}</a>
+                                <Link to="/about" className="nav-link" id="nav-item-link">{t("about")}</Link>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${experienceClassName}`} id="nav-item-link" value="2"  onClick={ () => this.props.onNavClick('experience') } href="#experience">{t("experience")}</a>
+                                <Link to="/experience" className="nav-link" id="nav-item-link">{t("experience")}</Link>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${educationClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('education') } href="#education">{t("education")}</a>
+                                <Link to="/education" className="nav-link" id="nav-item-link">{t("education")}</Link>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${skillsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('skills') } href="#skills">{t("skills")}</a>
+                                <Link to="/skills" className="nav-link" id="nav-item-link">{t("skills")}</Link>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${ProjectsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('projects') } href="#projects">{t("projects")}</a>
+                                <Link to="/courses" className="nav-link" id="nav-item-link">{t("courses")}</Link>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${awardsClassName}`} id="nav-item-link" onClick={ () => this.props.onNavClick('courses') } href="#courses">{t("courses")}</a>
+                                <Link to="/awards" className="nav-link" id="nav-item-link">{t("awards")}</Link>
                             </li>
                             </div>
                             <ChangeLanguage/>
