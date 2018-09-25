@@ -1,12 +1,13 @@
-## Page published at: 
+## Page published at:
 [dariuszsibik.github.io](https://dariuszsibik.github.io).
 
 
 ## Used technologies:
 #### - react: 16.4.1
+#### - react-Router
 #### - JSX
 #### - JavaScript
-#### - Bootstrap 
+#### - Bootstrap
 #### - CSS
 #### - RWD
 
@@ -17,6 +18,7 @@
 #### i18next: 11.3.3
 #### i18next-xhr-backend: 1.5.1
 #### react-i18next: 7.7.0
+#### react-router-dom": 4.3.1
 
     
 ## Download
