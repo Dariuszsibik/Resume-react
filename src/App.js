@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom';
+
 import Nav from './components/Nav.js';
 import SideBar from './components/SideBar.js';
 import Courses from './components/Courses.js';
@@ -7,63 +12,30 @@ import Education from './components/Education.js';
 import Projects from './components/Projects.js';
 import Skills from './components/Skills.js';
 import Experience from './components/Experience';
+import PageNotFound from './components/PageNotFound.js';
 
 
 class App extends Component {
-  constructor(){
-    super();
-    this.state = {
-      navActive: 'about',
-    };
-    this.onNavClick = this.onNavClick.bind(this);
-  }
-
-    onNavClick(props) {
-      this.setState({
-        navActive: props
-      })
-      if (window.screen.width < 1200) {
-        document.getElementById('navbar-toggler-content').click();
-      }
-    }
 
   render() {
-   
-    var section = null;
-    switch (this.state.navActive) {
-      case 'courses':
-          section = <Courses/>;
-          break;
-      case 'about':
-          section = <About/>;
-          break;
-      case 'experience':
-          section = <Experience/>;
-          break;
-      case 'education':
-          section = <Education/>;
-          break;
-      case 'skills':
-          section = <Skills/>;
-          break;
-      case 'projects':
-          section = <Projects/>;
-          break;
-      default: 
-          section = null;
-  }
 
     return (
-      <div className="Resume">
-          <Nav 
-              navActive={this.state.navActive}
-              onNavClick={this.onNavClick} 
-          />
-          <SideBar/>
-          <div className="container-fluid p-0">
-              {section}
-          </div>
-      </div>
+        <Router>
+            <div className="Resume">
+                <Nav/>
+                <SideBar/>
+                    <div className="container-fluid p-0">
+                          <Route exact path="/" component={About} />
+                          <Route path="/about" component={About} />
+                          <Route path="/experience" component={Experience} />
+                          <Route path="/education" component={Education} />
+                          <Route path="/skills" component={Skills} />
+                          <Route path="/projects" component={Projects} />
+                          <Route path="/courses" component={Courses} />
+                          <Route component={PageNotFound}/>
+                    </div>
+            </div>
+        </Router>
     );
   }
 }
