@@ -29,7 +29,7 @@ export default class SideBar extends Component {
               </div>
               <ul className="list-inline list-social-icons mb-0">
                     <li className="list-block-item">
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="list-facebook">
+                        <a href="https://www.facebook.com/dariusz.sibik" target="_blank" rel="noopener noreferrer" className="list-facebook">
                             <span className="fa-stack fa-lg">
                                 <i className="fa fa-circle fa-stack-2x"></i>
                                 <i className="fa fa-facebook fa-stack-1x fa-inverse"></i>
