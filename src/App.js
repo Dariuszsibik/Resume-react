@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
+  Switch,
   Route,
 } from 'react-router-dom';
 
@@ -24,6 +25,7 @@ class App extends Component {
                 <Nav/>
                 <SideBar/>
                     <div className="container-fluid p-0">
+                    <Switch>
                           <Route exact path="/" component={About} />
                           <Route path="/about" component={About} />
                           <Route path="/experience" component={Experience} />
@@ -31,6 +33,7 @@ class App extends Component {
                           <Route path="/skills" component={Skills} />
                           <Route path="/projects" component={Projects} />
                           <Route path="/courses" component={Courses} />
+                    </Switch>
                     </div>
             </div>
         </Router>
