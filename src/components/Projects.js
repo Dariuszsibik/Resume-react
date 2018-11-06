@@ -5,6 +5,7 @@ import Resume from './projects/Resume.js';
 import Mcuprys from './projects/Mcuprys.js';
 import TicTacToe from './projects/TicTacToe.js';
 import Calc from './projects/Calc.js';
+import OnlineShop from './projects/OnlineShop.js';
 
 export default class Projects extends Component {
 
@@ -12,6 +13,7 @@ export default class Projects extends Component {
     return (
 
 <section>
+                <OnlineShop/>
                 <Whinepad/>
                 <Resume/>
                 <TicTacToe/>
