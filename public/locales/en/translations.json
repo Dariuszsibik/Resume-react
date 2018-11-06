@@ -69,6 +69,8 @@
     "projects-mcuprys-text": "Website based on the Wordpress CMS system.",
     "projects-dariuszsibik": "My website",
     "projects-dariuszsibik-text": "Website created in React.js.",
+    "projects-onlineshop": "Online shop",
+    "projects-onlineshop-text": "Online shop created in React-Router with CSS",
 
     "view-website": "Website",
     "view-code": "Source code"

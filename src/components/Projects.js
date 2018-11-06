@@ -1,25 +1,54 @@
 
 import React, { Component } from 'react';
-import Whinepad from './projects/Whinepad.js';
-import Resume from './projects/Resume.js';
-import Mcuprys from './projects/Mcuprys.js';
-import TicTacToe from './projects/TicTacToe.js';
-import Calc from './projects/Calc.js';
-import OnlineShop from './projects/OnlineShop.js';
+import Project from './projects/Project';
+import { translate } from 'react-i18next';
 
-export default class Projects extends Component {
+const API_URL = `${
+  process.env.PUBLIC_URL
+}/api/projects.json`;
+
+class Projects extends Component {
+  constructor() {
+      super();
+      this.state = {
+          dataProjects: [],
+          loading: true,
+          error: false,
+      };
+  }
+
+  componentDidMount() {
+      fetch(API_URL)
+          .then(res => res.json())
+          .then(json => {
+              this.setState({ dataProjects: json.results, loading: false });
+          })
+          .catch(error => {
+              this.setState({ error });
+          });
+  }
 
   render() {
-    return (
+      const { t } = this.props;
+      let projects = [];
+      projects = this.state.dataProjects.map((el, i) =>
+          <Project
+              key={i}
+              id={el.id}
+              name={t(el.name)}
+              img={el.img}
+              description={t(el.description)}
+              item={el.item}
+              url={el.url}
+              button={t(el.button)}
+          />
+      );
 
-<section>
-                <OnlineShop/>
-                <Whinepad/>
-                <Resume/>
-                <TicTacToe/>
-                <Mcuprys/>
-                <Calc/>
-</section>
-    );
+          return(
+            <React.Fragment>
+               {projects}
+            </React.Fragment>
+          )
   }
 }
+export default translate('translations')(Projects);
