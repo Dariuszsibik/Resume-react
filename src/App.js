@@ -26,13 +26,13 @@ class App extends Component {
                 <SideBar/>
                     <div className="container-fluid p-0">
                     <Switch>
-                          <Route exact path="/" component={About} />
-                          <Route path="/about" component={About} />
-                          <Route path="/experience" component={Experience} />
-                          <Route path="/education" component={Education} />
-                          <Route path="/skills" component={Skills} />
-                          <Route path="/projects" component={Projects} />
-                          <Route path="/courses" component={Courses} />
+                          <Route exact path={process.env.PUBLIC_URL + '/'} component={About} />
+                          <Route path={process.env.PUBLIC_URL + '/about'} component={About} />
+                          <Route path={process.env.PUBLIC_URL + '/experience'} component={Experience} />
+                          <Route path={process.env.PUBLIC_URL + '/education'} component={Education} />
+                          <Route path={process.env.PUBLIC_URL + '/skills'} component={Skills} />
+                          <Route path={process.env.PUBLIC_URL + '/projects'} component={Projects} />
+                          <Route path={process.env.PUBLIC_URL + '/courses'} component={Courses} />
                     </Switch>
                     </div>
             </div>
