@@ -5,8 +5,8 @@ import {
   Route,
 } from 'react-router-dom';
 
-import Nav from './components/Nav.js';
-import SideBar from './components/SideBar.js';
+import Nav from './components/shared/nav/Nav.js';
+import SideBar from './components/shared/sidebar/SideBar.js';
 import Courses from './components/Courses.js';
 import About from './components/About.js';
 import Education from './components/Education.js';

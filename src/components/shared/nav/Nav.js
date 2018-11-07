@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { translate } from 'react-i18next';
-import ChangeLanguage from './ChangeLanguage.js';
+import ChangeLanguage from '../changeLanguage/ChangeLanguage.js';
 
 import {NavLink } from 'react-router-dom';
 

@@ -36,7 +36,7 @@ class Experience extends Component {
                     <h2 className="experience-projects-title">{t('experience_sample_projects')}</h2>
                         <ul className="fa-ul mb-0 experience-projects-item">
                             <li className="experience-items">
-                                <a href="https://login.devel.uj.edu.pl/login" target="_blank" rel="noopener noreferrer"><i className="fa-li fa fa-code"></i>{t('experience_projects_centrallogin')}</a></li>
+                                <a href="https://login.uj.edu.pl/login" target="_blank" rel="noopener noreferrer"><i className="fa-li fa fa-code"></i>{t('experience_projects_centrallogin')}</a></li>
                                 <li className="experience-items">
                                 <a href="http://www.wbbib.uj.edu.pl" target="_blank" rel="noopener noreferrer"><i className="fa-li fa fa-code"></i>{t('experience_projects_wbbib')}</a></li>
                                 <li className="experience-items">
